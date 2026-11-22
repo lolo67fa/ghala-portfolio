@@ -1,0 +1,1450 @@
+{
+  "_howToEdit": "All portfolio content lives in this file. Every piece of text has an \"en\" and an \"ar\" version. Edit the text, save, and the page updates. To add a project, copy an existing entry in \"featured\" or \"more\". Only add links you actually want public.",
+  "person": {
+    "name": {
+      "en": "Ghala Ahmad Alshreef",
+      "ar": "غلا أحمد الشريف"
+    },
+    "shortName": {
+      "en": "Ghala Alshreef",
+      "ar": "غلا الشريف"
+    },
+    "graduation": {
+      "en": "Graduating December 2026",
+      "ar": "التخرّج في ديسمبر 2026"
+    }
+  },
+  "links": {
+    "github": "https://github.com/lolo67fa",
+    "linkedin": "https://www.linkedin.com/in/ghala-a-670a62380",
+    "email": "lolo67fas@gmail.com"
+  },
+  "ui": {
+    "skip": {
+      "en": "Skip to content",
+      "ar": "انتقل إلى المحتوى"
+    },
+    "navProjects": {
+      "en": "Projects",
+      "ar": "المشاريع"
+    },
+    "navExperience": {
+      "en": "Experience",
+      "ar": "الخبرات"
+    },
+    "navEducation": {
+      "en": "Education",
+      "ar": "التعليم"
+    },
+    "navContact": {
+      "en": "Contact",
+      "ar": "تواصل"
+    },
+    "langButton": {
+      "en": "العربية",
+      "ar": "English"
+    },
+    "langButtonLang": {
+      "en": "ar",
+      "ar": "en"
+    },
+    "langButtonAria": {
+      "en": "عرض الموقع بالعربية — Switch to Arabic",
+      "ar": "View the site in English — التبديل إلى الإنجليزية"
+    },
+    "readMore": {
+      "en": "Show details",
+      "ar": "عرض التفاصيل"
+    },
+    "readLess": {
+      "en": "Hide details",
+      "ar": "إخفاء التفاصيل"
+    },
+    "whatIBuilt": {
+      "en": "What I built",
+      "ar": "وش بنيت"
+    },
+    "myContribution": {
+      "en": "My contribution",
+      "ar": "دوري في المشروع"
+    },
+    "technicalDetail": {
+      "en": "Technical detail",
+      "ar": "التفاصيل التقنية"
+    },
+    "tools": {
+      "en": "Tools",
+      "ar": "الأدوات"
+    },
+    "focus": {
+      "en": "Focus areas",
+      "ar": "محاور العمل"
+    },
+    "viewGithub": {
+      "en": "View on GitHub",
+      "ar": "عرض على GitHub"
+    },
+    "opensNewTab": {
+      "en": "(opens in a new tab)",
+      "ar": "(يفتح في تبويب جديد)"
+    },
+    "loading": {
+      "en": "Loading portfolio…",
+      "ar": "جاري تحميل الملف…"
+    },
+    "loadError": {
+      "en": "The portfolio content (portfolio-data.json) could not be loaded.",
+      "ar": "تعذّر تحميل محتوى الملف (portfolio-data.json)."
+    },
+    "footer": {
+      "en": "© 2026 Ghala Ahmad Alshreef · Riyadh",
+      "ar": "© 2026 غلا أحمد الشريف · الرياض"
+    },
+    "viewLive": {
+      "en": "Open the live platform",
+      "ar": "افتح المنصّة"
+    },
+    "howIWorked": {
+      "en": "How I worked",
+      "ar": "أسلوب العمل"
+    },
+    "whatIDid": {
+      "en": "What I did",
+      "ar": "ما قمت به"
+    },
+    "viewLiveSite": {
+      "en": "Open the live website",
+      "ar": "افتح الموقع"
+    },
+    "viewGithubTeam": {
+      "en": "Team repo on GitHub",
+      "ar": "مستودع الفريق على GitHub"
+    },
+    "playVR": {
+      "en": "Play in VR on itch.io",
+      "ar": "العبها بالواقع الافتراضي على itch.io"
+    }
+  },
+  "hero": {
+    "eyebrow": {
+      "en": "Information Technology · Software Development & Technical Projects · Riyadh",
+      "ar": "تقنية المعلومات · تطوير البرمجيات والمشاريع التقنية · الرياض"
+    },
+    "headline": {
+      "en": "I build AI tools that answer questions, track movement, and turn ideas into software.",
+      "ar": "أبني أدوات ذكية تساعدك تسأل مستنداتك، وتتابع الحركة بالفيديو، وتحوّل فكرتك إلى تطبيق."
+    },
+    "intro": {
+      "en": "I study Information Technology at the University of Tabuk and I’m spending a visiting semester at King Saud University. My work brings together applied AI, software development, and the experience I gained coordinating technical projects at Mobily.",
+      "ar": "أدرس تقنية المعلومات في جامعة تبوك، وأقضي حاليًا فصلًا زائرًا في جامعة الملك سعود. يجمع عملي بين الذكاء الاصطناعي التطبيقي وتطوير البرمجيات، وخبرتي في تنسيق المشاريع التقنية في موبايلي."
+    },
+    "primaryCta": {
+      "en": "Explore my projects",
+      "ar": "استكشف مشاريعي"
+    },
+    "secondaryCta": {
+      "en": "Connect on LinkedIn",
+      "ar": "تواصل معي على LinkedIn"
+    }
+  },
+  "heroDemo": {
+    "badge": {
+      "en": "Illustration · fictional sample text",
+      "ar": "رسم توضيحي · نص تجريبي خيالي"
+    },
+    "title": {
+      "en": "Inspired by Ask My PDF",
+      "ar": "مستوحى من Ask My PDF"
+    },
+    "prompt": {
+      "en": "Pick a question to see which passage the app would surface:",
+      "ar": "اختر سؤال وشوف أي فقرة يطلّعها لك التطبيق:"
+    },
+    "matchLabel": {
+      "en": "Most relevant passage",
+      "ar": "الفقرة الأقرب للسؤال"
+    },
+    "docName": {
+      "en": "oasis-garden-volunteer-guide.pdf",
+      "ar": "دليل-متطوعي-حديقة-الواحة.pdf"
+    },
+    "docTitle": {
+      "en": "Oasis Community Garden — Volunteer Guide",
+      "ar": "حديقة الواحة المجتمعية — دليل المتطوعين"
+    },
+    "passages": [
+      {
+        "en": "Watering: garden beds are watered every morning before 8 a.m. During summer, an extra evening round is added.",
+        "ar": "الري: تُسقى الأحواض كل صباح قبل الساعة 8. وفي الصيف تُضاف جولة سقي مسائية."
+      },
+      {
+        "en": "Tools: borrow tools from the shed and return them by sunset. Missing items are logged at the front desk.",
+        "ar": "الأدوات: تُستعار الأدوات من المخزن وتُرجَع قبل المغرب، وتُسجَّل المفقودات عند مكتب الاستقبال."
+      },
+      {
+        "en": "Harvest: each volunteer may take home up to two baskets of produce a week. The rest goes to the neighbourhood food table.",
+        "ar": "الحصاد: يحق لكل متطوع أخذ سلّتين من المحصول أسبوعيًا، والباقي يذهب لطاولة الطعام في الحي."
+      },
+      {
+        "en": "Joining: new volunteers attend a 30-minute orientation every Saturday at 9 a.m. at the garden gate.",
+        "ar": "الانضمام: يحضر المتطوعون الجدد جلسة تعريفية مدتها 30 دقيقة كل سبت الساعة 9 صباحًا عند بوابة الحديقة."
+      }
+    ],
+    "questions": [
+      {
+        "text": {
+          "en": "When are the beds watered?",
+          "ar": "متى تُسقى الأحواض؟"
+        },
+        "passage": 0
+      },
+      {
+        "text": {
+          "en": "How much produce can I take home?",
+          "ar": "كم أقدر آخذ من المحصول؟"
+        },
+        "passage": 2
+      },
+      {
+        "text": {
+          "en": "How do I join as a new volunteer?",
+          "ar": "كيف أنضم كمتطوع جديد؟"
+        },
+        "passage": 3
+      }
+    ]
+  },
+  "sections": {
+    "projectsKicker": {
+      "en": "Featured work",
+      "ar": "أبرز أعمالي"
+    },
+    "projectsTitle": {
+      "en": "Seven projects, seven different problems",
+      "ar": "سبعة مشاريع، وسبع مشكلات مختلفة"
+    },
+    "projectsIntro": {
+      "en": "Each card shows the problem first. Open a card to see what I built and the tools behind it.",
+      "ar": "كل بطاقة تبدأ بالمشكلة. افتح البطاقة عشان تشوف وش بنيت والأدوات اللي استخدمتها."
+    },
+    "moreKicker": {
+      "en": "More of my work",
+      "ar": "أعمال أخرى"
+    },
+    "moreTitle": {
+      "en": "Other things I’ve built",
+      "ar": "مشاريع ثانية اشتغلت عليها"
+    },
+    "experienceKicker": {
+      "en": "Experience & leadership",
+      "ar": "الخبرات والقيادة"
+    },
+    "experienceTitle": {
+      "en": "Working with people, not just code",
+      "ar": "أشتغل مع الناس، مو بس مع الكود"
+    },
+    "educationKicker": {
+      "en": "Education, certification & training",
+      "ar": "التعليم والشهادات والتدريب"
+    },
+    "educationTitle": {
+      "en": "Where I’ve been learning",
+      "ar": "وين تعلّمت"
+    },
+    "degreesLabel": {
+      "en": "Education",
+      "ar": "التعليم"
+    },
+    "certsLabel": {
+      "en": "Earned certification",
+      "ar": "الشهادات المهنية"
+    },
+    "trainingLabel": {
+      "en": "Completed training",
+      "ar": "الدورات والتدريب"
+    },
+    "contactKicker": {
+      "en": "Let’s talk",
+      "ar": "خلّنا نتواصل"
+    },
+    "mapLabel": {
+      "en": "My work as a constellation · select a star to jump to a project",
+      "ar": "أعمالي ككوكبة · اختر نجمة للانتقال إلى المشروع"
+    },
+    "mapAria": {
+      "en": "Project constellation",
+      "ar": "كوكبة المشاريع"
+    },
+    "capKicker": {
+      "en": "Capabilities",
+      "ar": "المهارات"
+    },
+    "capTitle": {
+      "en": "What Ghala Can Do",
+      "ar": "وش أقدر أسوي؟"
+    },
+    "toolsKicker": {
+      "en": "Toolkit",
+      "ar": "الأدوات"
+    },
+    "toolsTitle": {
+      "en": "Languages & Tools",
+      "ar": "اللغات والأدوات اللي أستخدمها"
+    }
+  },
+  "featured": [
+    {
+      "id": "bunyan",
+      "visual": "bunyan",
+      "name": {
+        "en": "Bunyan AI",
+        "ar": "بُنيان"
+      },
+      "altName": {
+        "en": "بُنيان",
+        "ar": "Bunyan AI"
+      },
+      "status": {
+        "en": "Tuwaiq Club, King Saud University · Oct–Nov 2026 · Live",
+        "ar": "نادي طويق، جامعة الملك سعود · أكتوبر–نوفمبر 2026 · منشورة"
+      },
+      "role": {
+        "en": "Founder & Project Lead · Business Analyst agent & system integration · 6-person team",
+        "ar": "مؤسِّسة المشروع وقائدة الفريق · وكيل محلّل الأعمال وتكامل النظام · فريق من 6 أعضاء"
+      },
+      "problem": {
+        "en": "Turning an app idea into working software takes requirements, design, code, testing, and planning, and most people can’t do all of that alone.",
+        "ar": "تحويل فكرة تطبيق إلى برنامج يعمل يحتاج متطلبات وتصميم وكود واختبار وتخطيط، وأغلب الناس ما يقدرون يسوّون هذا كله لحالهم."
+      },
+      "summary": {
+        "en": "Users describe an app idea in Arabic or English. Five AI agents (Business Analyst, Architect, Developer, QA, and Project Manager) turn it into a working, tested web app, with requirements, design, real test results, a project plan, a live preview, and a ZIP download.",
+        "ar": "يكتب المستخدم فكرته بالعربية أو الإنجليزية، فيحوّلها خمسة وكلاء ذكاء اصطناعي إلى تطبيق ويب يعمل: محلّل أعمال، ثم مهندس، ثم مطوّر، ثم مختبر جودة، ثم مدير مشروع. ويستلم المستخدم المتطلبات والتصميم والكود ونتائج الاختبار وخطة المشروع، مع معاينة وملف ZIP."
+      },
+      "contributionTitle": "whatIDid",
+      "contribution": [
+        {
+          "label": {
+            "en": "Leadership",
+            "ar": "القيادة والتخطيط"
+          },
+          "en": "Founded the project; defined the problem, scope, and multi-agent architecture; assigned roles across a 6-person team; set the development plan and GitHub workflow; reviewed and merged 13 of 14 merged PRs.",
+          "ar": "أسّست المشروع، وحددت المشكلة والنطاق والمعمارية متعددة الوكلاء، ووزّعت الأدوار على فريق من ستة أعضاء، ووضعت خطة التطوير وقواعد العمل على GitHub. وراجعت 13 من أصل 14 طلب دمج ودمجتها."
+        },
+        {
+          "label": {
+            "en": "Business Analyst agent",
+            "ar": "وكيل محلّل الأعمال (BA)"
+          },
+          "en": "Designed and built it. It turns ideas into validated, structured requirements (Pydantic) in Arabic, Gulf dialect, and English, asks clarifying questions, rejects out-of-scope ideas, and revises on feedback. It runs in mock mode or with Claude (Anthropic API).",
+          "ar": "صمّمته وبنيته. يحوّل الفكرة إلى متطلبات منظمة (Pydantic) بالعربية واللهجة الخليجية والإنجليزية، ويطرح أسئلة توضيحية، ويرفض الأفكار خارج النطاق، ويعدّل المتطلبات حسب طلب المستخدم. يعمل بوضعين: تجريبي (mock)، وحقيقي عبر Claude (Anthropic API)."
+        },
+        {
+          "label": {
+            "en": "Orchestration",
+            "ar": "الـ Orchestrator"
+          },
+          "en": "Built the pipeline that coordinates all five agents, with explicit states and honest error handling.",
+          "ar": "بنيت مسار التشغيل الذي ينسّق الوكلاء الخمسة، بحالات واضحة ومعالجة صادقة للأخطاء."
+        },
+        {
+          "label": {
+            "en": "Integration",
+            "ar": "تكامل الفريق"
+          },
+          "en": "Integrated teammates’ agents into one working system and fixed cross-agent compatibility, preserving each member’s ownership.",
+          "ar": "دمجت وكلاء زميلاتي في نظام واحد يعمل، وأصلحت التوافق بينها دون المساس بملكية كل عضوة لعملها."
+        },
+        {
+          "label": {
+            "en": "Backend & frontend",
+            "ar": "الخلفية والواجهة"
+          },
+          "en": "Extended the FastAPI backend (approval flow, artifacts, sandboxed preview, ZIP) and connected the React app to the real API.",
+          "ar": "وسّعت الـ API (FastAPI) لتشمل الموافقة على المتطلبات، والمعاينة، وملفات التسليم، وتنزيل ZIP، وربطت واجهة React بالخلفية الحقيقية."
+        },
+        {
+          "label": {
+            "en": "Quality",
+            "ar": "الجودة والاختبار"
+          },
+          "en": "Wired real Playwright browser testing into the pipeline; built an automatic repair loop (Developer fix, then a real-browser re-test, at most two attempts); wrote 360+ backend tests.",
+          "ar": "ربطت اختبارات Playwright الحقيقية بخط الإنتاج، وبنيت حلقة إصلاح تلقائي: يعيد المطوّر الإصلاح، ثم يُعاد الاختبار في متصفح حقيقي، بحد أقصى محاولتين. وكتبت أكثر من 360 اختباراً آلياً في الخلفية."
+        },
+        {
+          "label": {
+            "en": "DevOps",
+            "ar": "النشر والبنية التحتية"
+          },
+          "en": "Built a single Docker image (frontend, backend, Chromium), deployed on Railway with persistent storage and rollback plans, and set up CI on GitHub Actions.",
+          "ar": "صورة Docker واحدة تضم الواجهة والخلفية والمتصفح، ونشر على Railway بتخزين دائم وخطط رجوع آمنة، ومسارات CI على GitHub Actions."
+        },
+        {
+          "label": {
+            "en": "Security",
+            "ar": "الأمان"
+          },
+          "en": "Signed anonymous guest sessions, per-user project isolation, CSRF protection, rate limits and quotas, and sandboxed execution of generated code.",
+          "ar": "وضع ضيف بجلسات مجهولة الهوية موقّعة رقمياً، وعزل كامل بين مشاريع المستخدمين، وحماية من طلبات المواقع الأخرى (CSRF)، وحدود استخدام، ومعاينة معزولة للكود المولَّد."
+        },
+        {
+          "label": {
+            "en": "AI cost control",
+            "ar": "التحكم في تكلفة الذكاء الاصطناعي"
+          },
+          "en": "Protected, code-gated access to the real model and a persistent, fail-closed cumulative budget that reserves the worst case before every request.",
+          "ar": "وصول محمي برموز للمختبِرين، وميزانية تراكمية ثابتة لا تتصفّر، مع حجز أسوأ تكلفة قبل كل طلب وإغلاق آمن عند أي خلل."
+        },
+        {
+          "label": {
+            "en": "Production fixes",
+            "ar": "إصلاحات الإنتاج"
+          },
+          "en": "Diagnosed and fixed a Safari HTTP 429 homepage failure and Arabic (UTF-8) error rendering.",
+          "ar": "شخّصت مشكلة ظهور رسالة JSON بدل الموقع في Safari (خطأ 429) وأصلحتها، وأصلحت عرض رسائل الخطأ العربية."
+        },
+        {
+          "label": {
+            "en": "Delivery",
+            "ar": "التسليم"
+          },
+          "en": "Prepared the final release, submission docs, and an Arabic user guide, and shipped it to production.",
+          "ar": "جهّزت الإصدار النهائي ووثائق التسليم ودليل المستخدم بالعربي، ونشرته على الموقع الحي."
+        }
+      ],
+      "toolsLabel": "tools",
+      "tools": [
+        "Python",
+        "FastAPI",
+        "Pydantic",
+        "React",
+        "Vite",
+        "Anthropic Claude API",
+        "Playwright",
+        "Docker",
+        "Railway",
+        "GitHub Actions"
+      ],
+      "github": "https://github.com/lolo67fa/bunyan-ai",
+      "visualText": {
+        "caption": {
+          "en": "How the five agents hand off",
+          "ar": "كيف يتسلّم الوكلاء الخمسة العمل"
+        },
+        "steps": [
+          {
+            "en": "Your idea",
+            "ar": "فكرتك"
+          },
+          {
+            "en": "Business Analyst",
+            "ar": "محلّل الأعمال"
+          },
+          {
+            "en": "Architect",
+            "ar": "المهندس"
+          },
+          {
+            "en": "Developer",
+            "ar": "المطوّر"
+          },
+          {
+            "en": "QA",
+            "ar": "مختبر الجودة"
+          },
+          {
+            "en": "Project Manager",
+            "ar": "مدير المشروع"
+          },
+          {
+            "en": "Working web app",
+            "ar": "تطبيق ويب يعمل"
+          }
+        ]
+      },
+      "methodTitle": "howIWorked",
+      "method": {
+        "en": "I used Claude Code as an AI development tool under my direction. I defined the tasks and technical decisions, reviewed and tested the results, and approved every merge and deployment.",
+        "ar": "نفّذت جزءاً كبيراً من الكود باستخدام Claude Code كأداة تطوير، تحت إدارتي: حددت المهام والقرارات، وراجعت النتائج واختبرتها، واعتمدت الدمج والنشر."
+      },
+      "live": "https://bunyan-production-dfa4e72b.up.railway.app",
+      "screenshots": {
+        "caption": {
+          "en": "Screenshots from the live platform",
+          "ar": "لقطات من المنصّة الحيّة"
+        },
+        "items": [
+          {
+            "src": "assets/bunyan-hero.webp",
+            "label": {
+              "en": "Home",
+              "ar": "الرئيسية"
+            },
+            "alt": {
+              "en": "Bunyan home page: “AI agents that build your app, from Riyadh,” over a night view of the Riyadh skyline",
+              "ar": "الصفحة الرئيسية لبُنيان: «وكلاء ذكاء اصطناعي يبنون تطبيقك، من الرياض» على خلفية ليلية لمدينة الرياض"
+            }
+          },
+          {
+            "src": "assets/bunyan-vision.webp",
+            "label": {
+              "en": "Vision",
+              "ar": "الرؤية"
+            },
+            "alt": {
+              "en": "Bunyan vision section beside a photo of the King Abdullah Financial District",
+              "ar": "قسم رؤية بُنيان بجانب صورة لمركز الملك عبدالله المالي"
+            }
+          },
+          {
+            "src": "assets/bunyan-agents.webp",
+            "label": {
+              "en": "Agents",
+              "ar": "الوكلاء"
+            },
+            "alt": {
+              "en": "Diagram of the five agents connected through Bunyan’s coordination layer",
+              "ar": "رسم الوكلاء الخمسة المرتبطين عبر طبقة التنسيق في بُنيان"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "wahj",
+      "visual": "wahj",
+      "name": {
+        "en": "Wahj",
+        "ar": "وهج"
+      },
+      "altName": {
+        "en": "وهج",
+        "ar": "Wahj"
+      },
+      "status": {
+        "en": "Apple Developer Academy · iOS app",
+        "ar": "أكاديمية أبل للمطورين · تطبيق iOS"
+      },
+      "role": {
+        "en": "iOS development in SwiftUI",
+        "ar": "تطوير iOS بـ SwiftUI"
+      },
+      "problem": {
+        "en": "Daily habits are easy to drop when your progress feels invisible.",
+        "ar": "العادات اليومية سهل تنقطع لما ما تشوف تقدّمك."
+      },
+      "summary": {
+        "en": "An Arabic habit-building iOS app where daily progress becomes a growing constellation. Complete your habits, earn points, and unlock stars over time.",
+        "ar": "تطبيق iOS عربي لبناء العادات، يتحوّل فيه تقدّمك اليومي إلى كوكبة نجوم تكبر معك. تنجز عاداتك، تجمع نقاط، وتفتح نجوم مع الوقت."
+      },
+      "contributionTitle": "myContribution",
+      "contribution": [
+        {
+          "en": "Built screens in SwiftUI during the Apple Developer Academy.",
+          "ar": "بنيت واجهات بـ SwiftUI خلال أكاديمية أبل للمطورين."
+        },
+        {
+          "en": "Worked on an Arabic-first, right-to-left interface.",
+          "ar": "اشتغلت على واجهة عربية بالكامل من اليمين لليسار."
+        },
+        {
+          "en": "Focused on the link between a small daily action and its visual reward: every completed habit brings your sky a little closer to complete.",
+          "ar": "ركّزت على الربط بين الفعل اليومي البسيط ومكافأته البصرية: كل عادة تنجزها تقرّب سماك من الاكتمال."
+        }
+      ],
+      "toolsLabel": "tools",
+      "tools": [
+        "SwiftUI",
+        "iOS",
+        "Arabic RTL interface"
+      ],
+      "github": "https://github.com/lolo67fa/wahj",
+      "visualText": {
+        "caption": {
+          "en": "Illustration · try it",
+          "ar": "رسم توضيحي · جرّبه"
+        },
+        "complete": {
+          "en": "Complete today’s habit",
+          "ar": "أنجز عادة اليوم"
+        },
+        "restart": {
+          "en": "Sky complete · start again",
+          "ar": "اكتملت السماء · ابدأ من جديد"
+        },
+        "starsOf": {
+          "en": "stars unlocked",
+          "ar": "نجوم مفتوحة"
+        }
+      },
+      "screenshots": {
+        "caption": {
+          "en": "Screenshots from the app",
+          "ar": "لقطات من التطبيق"
+        },
+        "items": [
+          {
+            "src": "assets/wahj-sky.webp",
+            "label": {
+              "en": "My sky",
+              "ar": "سمائي"
+            },
+            "alt": {
+              "en": "Wahj “My sky” screen: the Little Dipper constellation lit up, 95 of 100 points, one more habit to light the next star",
+              "ar": "شاشة «سمائي» في وهج: كوكبة الدب الأصغر مضيئة، 95 من 100 نقطة، وباقي إنجاز واحد لإضاءة النجمة التالية"
+            }
+          },
+          {
+            "src": "assets/wahj-progress.webp",
+            "label": {
+              "en": "Progress",
+              "ar": "التقدّم"
+            },
+            "alt": {
+              "en": "Wahj progress screen: the Big Dipper partly lit, 45 of 100 points, with today’s habits completed and the tab bar",
+              "ar": "شاشة التقدّم في وهج: كوكبة الدب الأكبر مضيئة جزئيًا، 45 من 100 نقطة، مع إنجاز عادات اليوم وشريط التنقّل"
+            }
+          },
+          {
+            "src": "assets/wahj-friends.webp",
+            "label": {
+              "en": "Friends",
+              "ar": "الأصدقاء"
+            },
+            "alt": {
+              "en": "Wahj friends screen: a smiling star character and “Habits are better together,” with a button to start a habit with a friend",
+              "ar": "شاشة الأصدقاء في وهج: شخصية نجمة مبتسمة وعبارة «مع بعض، العادة أحلى» وزر لبدء عادة مع صديق"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "hegra",
+      "visual": "hegra",
+      "name": {
+        "en": "Secret of Hegra",
+        "ar": "سر الحِجر"
+      },
+      "altName": {
+        "en": "سر الحِجر",
+        "ar": "Secret of Hegra"
+      },
+      "status": {
+        "en": "VR game · Saudi Digital Academy VR Bootcamp · Oct 2026",
+        "ar": "لعبة واقع افتراضي · معسكر الواقع الافتراضي، الأكاديمية السعودية الرقمية · أكتوبر 2026"
+      },
+      "role": {
+        "en": "Designed and built in Unity for Meta Quest 3",
+        "ar": "صمّمتها وبنيتها بـ Unity لنظارة Meta Quest 3"
+      },
+      "problem": {
+        "en": "Not everyone can travel to AlUla to experience Hegra and its Nabataean heritage in person.",
+        "ar": "مو كل أحد يقدر يسافر للعُلا ويعيش تجربة الحِجر وتراثها النبطي بنفسه."
+      },
+      "summary": {
+        "en": "A single-player VR story adventure inspired by Hegra and Nabataean heritage, built for Meta Quest 3 and showcased at the bootcamp’s Demo Day.",
+        "ar": "مغامرة قصصية بالواقع الافتراضي للاعب واحد، مستوحاة من الحِجر والتراث النبطي، مبنية لنظارة Meta Quest 3 وعُرضت في يوم العرض الختامي للمعسكر."
+      },
+      "contributionTitle": "whatIBuilt",
+      "contribution": [
+        {
+          "en": "Turned a Saudi heritage site into a VR story you can step inside and explore.",
+          "ar": "حوّلت موقع تراثي سعودي إلى قصة واقع افتراضي تدخلها وتستكشفها بنفسك."
+        },
+        {
+          "en": "Built it in Unity 6 (URP) for Meta Quest 3, using Claude Code as a development tool under my direction.",
+          "ar": "بنيتها بـ Unity 6 (URP) لنظارة Meta Quest 3، واستخدمت Claude Code كأداة تطوير تحت إدارتي."
+        },
+        {
+          "en": "Presented it at the SDA VR Bootcamp Demo Day in October 2026.",
+          "ar": "عرضتها في يوم العرض الختامي لمعسكر الواقع الافتراضي في أكتوبر 2026."
+        }
+      ],
+      "toolsLabel": "tools",
+      "tools": [
+        "Unity 6",
+        "URP",
+        "Meta Quest 3",
+        "Claude Code"
+      ],
+      "github": "https://github.com/lolo67fa/SecretOfHegral",
+      "visualText": {
+        "caption": {
+          "en": "Illustration · inspired by Hegra’s tomb facades",
+          "ar": "رسم توضيحي · مستوحى من واجهات مقابر الحِجر"
+        },
+        "aria": {
+          "en": "Illustration of a Nabataean tomb facade carved into sandstone under a night sky, with a VR gaze ring at the doorway",
+          "ar": "رسم لواجهة مقبرة نبطية منحوتة في الصخر تحت سماء الليل، مع دائرة نظر الواقع الافتراضي عند المدخل"
+        }
+      },
+      "play": "https://lolo67fa.itch.io/secretofhegra",
+      "screenshots": {
+        "caption": {
+          "en": "Screenshots from the game",
+          "ar": "لقطات من اللعبة"
+        },
+        "items": [
+          {
+            "src": "assets/hegra-market.webp",
+            "label": {
+              "en": "Night market",
+              "ar": "السوق الليلي"
+            },
+            "alt": {
+              "en": "Secret of Hegra: a night market among sandstone rocks and palm trees, lit by lanterns, seen through VR controller hands",
+              "ar": "سر الحِجر: سوق ليلي بين الصخور الرملية والنخيل تضيئه الفوانيس، من منظور يدي اللاعب في الواقع الافتراضي"
+            }
+          },
+          {
+            "src": "assets/hegra-treasure.webp",
+            "label": {
+              "en": "Treasure",
+              "ar": "الكنز"
+            },
+            "alt": {
+              "en": "Secret of Hegra: an open treasure chest inside a tomb, with glowing writing on the wall and a hint to look at the wall",
+              "ar": "سر الحِجر: صندوق كنز مفتوح داخل المقبرة، مع كتابة مضيئة على الجدار وتلميح «انظر إلى الجدار»"
+            }
+          }
+        ]
+      },
+      "coverLabel": {
+        "en": "Cover",
+        "ar": "الغلاف"
+      }
+    },
+    {
+      "id": "darb",
+      "visual": "darb",
+      "name": {
+        "en": "Darb",
+        "ar": "درب"
+      },
+      "altName": {
+        "en": "درب",
+        "ar": "Darb"
+      },
+      "status": {
+        "en": "AI Champions hackathon · Tuwaiq Academy × Google for Developers · Aug 2026",
+        "ar": "هاكاثون AI Champions · أكاديمية طويق × Google for Developers · أغسطس 2026"
+      },
+      "role": {
+        "en": "AI recognition core · team of 4",
+        "ar": "نواة التعرّف بالذكاء الاصطناعي · فريق من 4"
+      },
+      "problem": {
+        "en": "Tourists standing in front of a heritage landmark rarely get its story in their language, and AI guides can confidently make facts up.",
+        "ar": "السائح قدّام معلم تراثي نادرًا ما يلقى قصته بلغته، وأدلة الذكاء الاصطناعي ممكن تخترع معلومات بثقة."
+      },
+      "summary": {
+        "en": "A responsive web app: point your phone camera at a landmark and get its verified story in Arabic or English, with a source under every fact. Facts come from a curated landmark library; Gemini only phrases them and never invents them.",
+        "ar": "تطبيق ويب متجاوب: توجّه كاميرا جوالك على المعلم وتطلع لك قصته الموثّقة بالعربي أو الإنجليزي، مع مصدر تحت كل معلومة. المعلومات من مكتبة معالم منسّقة، وGemini يصيغها بس وما يخترع شي."
+      },
+      "contributionTitle": "myContribution",
+      "contribution": [
+        {
+          "label": {
+            "en": "Recognition gateway",
+            "ar": "بوابة التعرّف"
+          },
+          "en": "Built the server-side Gemini gateway with strict JSON output.",
+          "ar": "بنيت بوابة Gemini على الخادم بمخرجات JSON صارمة."
+        },
+        {
+          "label": {
+            "en": "Location",
+            "ar": "الموقع"
+          },
+          "en": "GPS candidate selection and a discovery engine that filters landmarks by distance and radius.",
+          "ar": "اختيار المعالم المرشّحة بالـ GPS، ومحرّك اكتشاف يفلتر المعالم حسب المسافة والنطاق."
+        },
+        {
+          "label": {
+            "en": "Honest mode",
+            "ar": "الوضع الصادق"
+          },
+          "en": "A confidence threshold with null routing, so the app says it isn’t sure instead of guessing.",
+          "ar": "حدّ ثقة مع مسار للحالات غير المعروفة، عشان التطبيق يقول إنه مو متأكد بدل ما يخمّن."
+        }
+      ],
+      "method": {
+        "en": "Recognition only receives each landmark’s ID and visual markers, never its name or category, so the model can’t lean on labels. Below the confidence threshold the match is null and the app switches to honest mode.",
+        "ar": "التعرّف يستلم رقم كل معلم وعلاماته البصرية فقط، بدون الاسم أو التصنيف، عشان النموذج ما يعتمد على التسميات. وإذا كانت الثقة أقل من الحد، تكون النتيجة فارغة ويتحوّل التطبيق للوضع الصادق."
+      },
+      "toolsLabel": "tools",
+      "tools": [
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind",
+        "Gemini API",
+        "Vercel"
+      ],
+      "live": "https://darb-vert.vercel.app",
+      "github": "https://github.com/3bdulaziz0/Darb",
+      "githubLabel": "viewGithubTeam",
+      "visualText": {
+        "caption": {
+          "en": "Illustration · fictional landmark",
+          "ar": "رسم توضيحي · معلم خيالي"
+        },
+        "group": {
+          "en": "Try both cases",
+          "ar": "جرّب الحالتين"
+        },
+        "knownBtn": {
+          "en": "Known landmark",
+          "ar": "معلم معروف"
+        },
+        "unknownBtn": {
+          "en": "Unknown building",
+          "ar": "مبنى غير معروف"
+        },
+        "knownTitle": {
+          "en": "Old mud-brick fort",
+          "ar": "قلعة طينية قديمة"
+        },
+        "knownText": {
+          "en": "Built from local mud brick, with triangular openings for light and air.",
+          "ar": "مبنية من الطين المحلي، وفيها فتحات مثلثة للضوء والهواء."
+        },
+        "knownSource": {
+          "en": "Source: curated landmark library",
+          "ar": "المصدر: مكتبة المعالم المنسّقة"
+        },
+        "unknownTitle": {
+          "en": "Honest mode",
+          "ar": "الوضع الصادق"
+        },
+        "unknownText": {
+          "en": "I’m not sure which building this is, so I won’t guess.",
+          "ar": "مو متأكد وش هذا المبنى، فما راح أخمّن."
+        }
+      }
+    },
+    {
+      "id": "askmypdf",
+      "visual": "pdf",
+      "name": {
+        "en": "Ask My PDF",
+        "ar": "Ask My PDF"
+      },
+      "altName": {
+        "en": "",
+        "ar": "اسأل ملفك"
+      },
+      "status": {
+        "en": "Document Q&A app · Python & Streamlit",
+        "ar": "تطبيق سؤال وجواب على المستندات · Python وStreamlit"
+      },
+      "role": {
+        "en": "Designed and built",
+        "ar": "تصميم وتطوير"
+      },
+      "problem": {
+        "en": "Finding one answer in a long PDF usually means scrolling and skimming page after page.",
+        "ar": "عشان تلقى إجابة وحدة في ملف PDF طويل، غالبًا بتقلّب وتتصفح صفحة ورا صفحة."
+      },
+      "summary": {
+        "en": "Upload a PDF, ask a question in your own words, and the app points you to the passages most likely to answer it. I built it in Python with a Streamlit interface.",
+        "ar": "ترفع ملف PDF، وتسأل بأسلوبك، والتطبيق يدلّك على الفقرات الأقرب للإجابة. بنيته بلغة Python وواجهة Streamlit."
+      },
+      "contributionTitle": "whatIBuilt",
+      "contribution": [
+        {
+          "en": "A simple flow: upload, ask, read the relevant passages.",
+          "ar": "تجربة بسيطة: ارفع الملف، اسأل، واقرأ الفقرات المرتبطة."
+        },
+        {
+          "en": "A Streamlit interface that keeps the question and the retrieved text side by side.",
+          "ar": "واجهة Streamlit تعرض السؤال والنص المسترجع جنب بعض."
+        }
+      ],
+      "method": {
+        "en": "The app represents the question and the document’s passages as TF-IDF vectors, then ranks the passages by cosine similarity to retrieve the most relevant ones.",
+        "ar": "يحوّل التطبيق السؤال وفقرات المستند إلى متجهات TF-IDF، ثم يرتّب الفقرات حسب تشابه جيب التمام (Cosine Similarity) عشان يسترجع الأقرب."
+      },
+      "toolsLabel": "tools",
+      "tools": [
+        "Python",
+        "Streamlit",
+        "TF-IDF",
+        "Cosine similarity"
+      ],
+      "github": "https://github.com/lolo67fa/ask-my-pdf-rag",
+      "visualText": {
+        "caption": {
+          "en": "Illustration · plain-language view",
+          "ar": "رسم توضيحي · بشكل مبسّط"
+        },
+        "question": {
+          "en": "“What’s the refund deadline?”",
+          "ar": "«متى آخر موعد للاسترجاع؟»"
+        },
+        "steps": [
+          {
+            "en": "Upload",
+            "ar": "ارفع"
+          },
+          {
+            "en": "Ask",
+            "ar": "اسأل"
+          },
+          {
+            "en": "Read the match",
+            "ar": "اقرأ النتيجة"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cv",
+      "visual": "cv",
+      "name": {
+        "en": "Smart CV & LinkedIn Analyzer",
+        "ar": "محلّل السيرة الذاتية وLinkedIn"
+      },
+      "altName": {
+        "en": "",
+        "ar": ""
+      },
+      "status": {
+        "en": "Personal project · Live",
+        "ar": "مشروع شخصي · منشور"
+      },
+      "role": {
+        "en": "Designed and built end to end",
+        "ar": "صمّمته وبنيته بالكامل"
+      },
+      "problem": {
+        "en": "Job seekers rarely know how well their CV and LinkedIn profile fit the role they actually want.",
+        "ar": "الباحث عن عمل نادرًا يعرف وش مدى توافق سيرته الذاتية وحسابه في LinkedIn مع الوظيفة اللي يبيها."
+      },
+      "summary": {
+        "en": "An AI career assistant powered by Gemini. It analyzes a CV, scores the CV and LinkedIn profile against a target role, rewrites application content, and drafts a LinkedIn About section.",
+        "ar": "مساعد مهني بالذكاء الاصطناعي يعتمد على Gemini. يحلّل السيرة الذاتية، ويقيّم السيرة وحساب LinkedIn مقابل الوظيفة المستهدفة، ويعيد صياغة محتوى التقديم، ويكتب مسودة لنبذة LinkedIn."
+      },
+      "contributionTitle": "whatIBuilt",
+      "contribution": [
+        {
+          "en": "Analysis against a target role, so feedback is specific instead of generic.",
+          "ar": "تحليل مقابل وظيفة محددة، عشان الملاحظات تكون دقيقة مو عامة."
+        },
+        {
+          "en": "Rewriting tools for application content and a LinkedIn About generator.",
+          "ar": "أدوات لإعادة صياغة محتوى التقديم، ومولّد لنبذة LinkedIn."
+        },
+        {
+          "en": "A React front end with a Flask back end, live on the web.",
+          "ar": "واجهة React مع خلفية Flask، ومنشور على الويب."
+        }
+      ],
+      "toolsLabel": "tools",
+      "tools": [
+        "React",
+        "Flask",
+        "Gemini API"
+      ],
+      "live": "https://smart-cv-linkedin-analyzer.vercel.app",
+      "github": "",
+      "visualText": {
+        "caption": {
+          "en": "Illustration · sample profile",
+          "ar": "رسم توضيحي · ملف تجريبي"
+        },
+        "target": {
+          "en": "Target role: AI Engineer",
+          "ar": "الوظيفة المستهدفة: AI Engineer"
+        },
+        "rows": [
+          {
+            "kind": "good",
+            "tag": {
+              "en": "Fits",
+              "ar": "متوافق"
+            },
+            "text": {
+              "en": "Python and ML projects match the role",
+              "ar": "مشاريع Python وتعلّم الآلة تناسب الوظيفة"
+            }
+          },
+          {
+            "kind": "warn",
+            "tag": {
+              "en": "Improve",
+              "ar": "حسّن"
+            },
+            "text": {
+              "en": "Add measurable results to project bullets",
+              "ar": "أضف نتائج قابلة للقياس لنقاط المشاريع"
+            }
+          },
+          {
+            "kind": "draft",
+            "tag": {
+              "en": "Draft",
+              "ar": "مسودة"
+            },
+            "text": {
+              "en": "LinkedIn About, rewritten for the role",
+              "ar": "نبذة LinkedIn معاد كتابتها للوظيفة"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "drone",
+      "visual": "drone",
+      "name": {
+        "en": "AI Drone Crowd Monitoring",
+        "ar": "مراقبة الحشود بالدرون"
+      },
+      "altName": {
+        "en": "",
+        "ar": "AI Drone Crowd Monitoring"
+      },
+      "status": {
+        "en": "Final project · Tuwaiq Academy, Drones & Computer Vision",
+        "ar": "المشروع النهائي · أكاديمية طويق، دورة الدرونز والرؤية الحاسوبية"
+      },
+      "role": {
+        "en": "Course final project",
+        "ar": "مشروع تخرّج الدورة"
+      },
+      "problem": {
+        "en": "Watching a crowd from above is hard to do reliably by eye; you need to know where each person is and how they move.",
+        "ar": "متابعة الحشود من الأعلى بالعين صعبة ومتعبة، وتحتاج تعرف وين كل شخص وكيف يتحرك."
+      },
+      "summary": {
+        "en": "Using a Tello drone, I detect people in aerial footage with YOLO11 and follow each person across frames with ByteTrack.",
+        "ar": "باستخدام درون Tello، أكتشف الأشخاص في اللقطات الجوية بنموذج YOLO11، وأتتبّع كل شخص بين الإطارات باستخدام ByteTrack."
+      },
+      "contributionTitle": "whatIBuilt",
+      "contribution": [
+        {
+          "en": "Detection: YOLO11 finds each person in a single frame and draws a box around them.",
+          "ar": "الاكتشاف: YOLO11 يحدد كل شخص في الإطار الواحد ويرسم حوله مربع."
+        },
+        {
+          "en": "Tracking: ByteTrack links those boxes across frames, so each person keeps the same ID as they move.",
+          "ar": "التتبّع: ByteTrack يربط المربعات بين الإطارات، فيحتفظ كل شخص بنفس الرقم وهو يتحرك."
+        }
+      ],
+      "toolsLabel": "tools",
+      "tools": [
+        "Tello drone",
+        "YOLO11",
+        "ByteTrack",
+        "Computer vision"
+      ],
+      "github": "",
+      "visualText": {
+        "caption": {
+          "en": "Illustrative diagram · not real footage",
+          "ar": "رسم توضيحي · مو لقطات حقيقية"
+        },
+        "detectTitle": {
+          "en": "Detection",
+          "ar": "الاكتشاف"
+        },
+        "detectText": {
+          "en": "Finds people in one frame",
+          "ar": "يلقى الأشخاص في إطار واحد"
+        },
+        "trackTitle": {
+          "en": "Tracking",
+          "ar": "التتبّع"
+        },
+        "trackText": {
+          "en": "Follows the same person across frames",
+          "ar": "يتابع نفس الشخص عبر الإطارات"
+        }
+      },
+      "screenshots": {
+        "caption": {
+          "en": "Screenshot from the monitoring dashboard",
+          "ar": "لقطة من لوحة المراقبة"
+        },
+        "items": [
+          {
+            "src": "assets/drone-dashboard.webp",
+            "label": {
+              "en": "Live feed",
+              "ar": "البث المباشر"
+            },
+            "alt": {
+              "en": "Crowd monitoring dashboard: live drone feed with person bounding boxes and confidence scores, altitude, yaw and FPS readouts, and a count of 9 people detected",
+              "ar": "لوحة مراقبة الحشود: بث مباشر من الدرون مع مربعات حول الأشخاص ونسب الثقة، وقراءات الارتفاع والاتجاه وعدد الإطارات، وعدد 9 أشخاص مكتشفين"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "more": [
+    {
+      "name": {
+        "en": "Smart Attendance System",
+        "ar": "نظام الحضور الذكي"
+      },
+      "label": {
+        "en": "Graduation project",
+        "ar": "مشروع التخرّج"
+      },
+      "text": {
+        "en": "An attendance application for registering and managing attendance.",
+        "ar": "تطبيق لتسجيل الحضور وإدارته."
+      },
+      "tools": [
+        "Python",
+        "OpenCV",
+        "CustomTkinter"
+      ]
+    }
+  ],
+  "experience": {
+    "featured": {
+      "org": {
+        "en": "Mobily",
+        "ar": "موبايلي"
+      },
+      "role": {
+        "en": "Project Management Trainee",
+        "ar": "متدرّبة في إدارة المشاريع"
+      },
+      "team": {
+        "en": "B2B Customer Appreciation · Riyadh",
+        "ar": "تقدير عملاء قطاع الأعمال (B2B) · الرياض"
+      },
+      "dates": {
+        "en": "June – August 2026",
+        "ar": "يونيو – أغسطس 2026"
+      },
+      "lead": {
+        "en": "This is where I learned that technical projects move forward when the people around them stay aligned.",
+        "ar": "هنا تعلّمت إن المشاريع التقنية تمشي لقدّام لما يكون الناس اللي حولها على نفس الصفحة."
+      },
+      "highlights": [
+        {
+          "value": "3+",
+          "text": {
+            "en": "B2B technical projects coordinated using Jira",
+            "ar": "مشاريع تقنية لقطاع الأعمال نسّقتها باستخدام Jira"
+          }
+        },
+        {
+          "value": "UAT",
+          "text": {
+            "en": "Helped schedule user acceptance testing",
+            "ar": "ساعدت في جدولة اختبارات قبول المستخدم"
+          }
+        },
+        {
+          "value": "Docs",
+          "text": {
+            "en": "Prepared status updates and project documentation",
+            "ar": "جهّزت تحديثات الحالة وتوثيق المشاريع"
+          }
+        }
+      ]
+    },
+    "roles": [
+      {
+        "org": {
+          "en": "Tuwaiq Club at King Saud University",
+          "ar": "نادي طويق في جامعة الملك سعود"
+        },
+        "role": {
+          "en": "AI Track Team Lead",
+          "ar": "قائدة مسار الذكاء الاصطناعي"
+        },
+        "dates": {
+          "en": "October 2026",
+          "ar": "أكتوبر 2026"
+        },
+        "text": {
+          "en": "I lead the club’s AI track, where I founded and led Bunyan AI with a six-person team, from scope to a live, deployed platform.",
+          "ar": "أقود مسار الذكاء الاصطناعي في النادي، ومن خلاله أسّست بُنيان وقدت فريقاً من ستة أعضاء من تحديد النطاق حتى نشر المنصّة."
+        }
+      },
+      {
+        "org": {
+          "en": "Apple Developer Academy, Riyadh",
+          "ar": "أكاديمية أبل للمطورين، الرياض"
+        },
+        "role": {
+          "en": "iOS Developer Intern",
+          "ar": "متدرّبة مطوّرة iOS"
+        },
+        "dates": {
+          "en": "",
+          "ar": ""
+        },
+        "text": {
+          "en": "Hands-on iOS development with SwiftUI, including my work on Wahj, an Arabic habit-building app.",
+          "ar": "تطوير عملي لتطبيقات iOS بـ SwiftUI، ومنها شغلي على وهج، تطبيق عربي لبناء العادات."
+        }
+      }
+    ]
+  },
+  "education": {
+    "degrees": [
+      {
+        "title": {
+          "en": "B.Sc. in Information Technology",
+          "ar": "بكالوريوس تقنية المعلومات"
+        },
+        "place": {
+          "en": "University of Tabuk",
+          "ar": "جامعة تبوك"
+        },
+        "detail": {
+          "en": "Expected graduation: December 2026 · GPA 4.41 / 5",
+          "ar": "التخرّج المتوقع: ديسمبر 2026 · المعدل 4.41 من 5"
+        }
+      },
+      {
+        "title": {
+          "en": "Visiting student",
+          "ar": "طالبة زائرة"
+        },
+        "place": {
+          "en": "College of Computer and Information Sciences, King Saud University",
+          "ar": "كلية علوم الحاسب والمعلومات، جامعة الملك سعود"
+        },
+        "detail": {
+          "en": "",
+          "ar": ""
+        }
+      }
+    ],
+    "certifications": [
+      {
+        "title": {
+          "en": "AWS Certified AI Practitioner",
+          "ar": "AWS Certified AI Practitioner"
+        },
+        "issuer": {
+          "en": "Amazon Web Services",
+          "ar": "Amazon Web Services"
+        },
+        "date": {
+          "en": "October 2026",
+          "ar": "أكتوبر 2026"
+        }
+      }
+    ],
+    "training": [
+      {
+        "title": {
+          "en": "Drones and Computer Vision",
+          "ar": "الدرونز والرؤية الحاسوبية"
+        },
+        "place": {
+          "en": "Tuwaiq Academy",
+          "ar": "أكاديمية طويق"
+        }
+      },
+      {
+        "title": {
+          "en": "VR Bootcamp",
+          "ar": "معسكر الواقع الافتراضي"
+        },
+        "place": {
+          "en": "Saudi Digital Academy",
+          "ar": "الأكاديمية السعودية الرقمية"
+        }
+      }
+    ]
+  },
+  "contact": {
+    "title": {
+      "en": "I’m interested in AI engineering opportunities and collaborations on applied AI projects.",
+      "ar": "أبحث عن فرص في هندسة الذكاء الاصطناعي، ويسعدني التعاون في مشاريع الذكاء الاصطناعي التطبيقي."
+    },
+    "text": {
+      "en": "If you’re building something where AI meets real users, I’d love to hear about it.",
+      "ar": "إذا تشتغل على شيء يجمع الذكاء الاصطناعي بمستخدمين حقيقيين، يسعدني أسمع عنه."
+    },
+    "github": {
+      "en": "GitHub",
+      "ar": "GitHub"
+    },
+    "linkedin": {
+      "en": "LinkedIn",
+      "ar": "LinkedIn"
+    },
+    "email": {
+      "en": "Email me",
+      "ar": "راسلني على الإيميل"
+    }
+  },
+  "capabilities": [
+    {
+      "project": "askmypdf",
+      "title": {
+        "en": "Build AI tools",
+        "ar": "بناء أدوات ذكاء اصطناعي"
+      },
+      "text": {
+        "en": "With {Ask My PDF}, I built a tool that finds relevant passages when someone asks a question about a document.",
+        "ar": "في {Ask My PDF} بنيت أداة تطلّع الفقرات المرتبطة لما أحد يسأل سؤال عن مستند."
+      }
+    },
+    {
+      "project": "bunyan",
+      "title": {
+        "en": "Develop multi-agent workflows",
+        "ar": "تطوير مسارات عمل متعددة الوكلاء"
+      },
+      "text": {
+        "en": "On {Bunyan AI}, I lead a six-person team and work on the business analysis agent that turns a user’s idea into requirements the team’s other agents can use.",
+        "ar": "في {بُنيان} أقود فريق من ستة أشخاص، وأشتغل على وكيل تحليل الأعمال اللي يحوّل فكرة المستخدم إلى متطلبات يستخدمها باقي وكلاء الفريق."
+      }
+    },
+    {
+      "project": "drone",
+      "title": {
+        "en": "Build computer vision systems",
+        "ar": "بناء أنظمة رؤية حاسوبية"
+      },
+      "text": {
+        "en": "For my {drone project}, I used YOLO11 to detect people in aerial footage and ByteTrack to follow them across frames.",
+        "ar": "في {مشروع الدرون} استخدمت YOLO11 لاكتشاف الأشخاص في اللقطات الجوية، وByteTrack لتتبّعهم بين الإطارات."
+      }
+    },
+    {
+      "project": "cv",
+      "title": {
+        "en": "Develop web applications",
+        "ar": "تطوير تطبيقات الويب"
+      },
+      "text": {
+        "en": "I built {Smart CV & LinkedIn Analyzer} with a React interface and a Flask backend so users can review their career profiles.",
+        "ar": "بنيت {محلّل السيرة الذاتية وLinkedIn} بواجهة React وخلفية Flask، عشان المستخدم يراجع ملفه المهني."
+      }
+    },
+    {
+      "project": "wahj",
+      "title": {
+        "en": "Create Arabic iOS experiences",
+        "ar": "تصميم تجارب iOS عربية"
+      },
+      "text": {
+        "en": "For {Wahj}, I used SwiftUI to turn daily habit completions into a constellation that lights up as the user progresses.",
+        "ar": "في {وهج} استخدمت SwiftUI عشان تتحوّل العادات اليومية المنجزة إلى كوكبة نجوم تضيء مع تقدّم المستخدم."
+      }
+    },
+    {
+      "project": "",
+      "title": {
+        "en": "Coordinate technical projects",
+        "ar": "تنسيق المشاريع التقنية"
+      },
+      "text": {
+        "en": "During my Mobily internship, I used Jira to track B2B projects, coordinated user acceptance testing, and prepared progress updates.",
+        "ar": "خلال تدريبي في موبايلي، استخدمت Jira لمتابعة مشاريع B2B، ونسّقت اختبارات قبول المستخدم، وجهّزت تحديثات التقدّم."
+      }
+    }
+  ],
+  "toolGroups": [
+    {
+      "label": {
+        "en": "Programming & query languages",
+        "ar": "لغات البرمجة والاستعلام"
+      },
+      "items": [
+        "Python",
+        "JavaScript",
+        "Swift",
+        "Java",
+        "PHP",
+        "SQL"
+      ]
+    },
+    {
+      "label": {
+        "en": "Web & app development",
+        "ar": "تطوير الويب والتطبيقات"
+      },
+      "items": [
+        "HTML",
+        "CSS",
+        "React",
+        "Flask",
+        "Laravel",
+        "SwiftUI",
+        "Streamlit",
+        "Tailwind CSS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "label": {
+        "en": "AI & computer vision",
+        "ar": "الذكاء الاصطناعي والرؤية الحاسوبية"
+      },
+      "items": [
+        "OpenCV",
+        "YOLO",
+        "ByteTrack",
+        "NumPy",
+        "CrewAI"
+      ]
+    },
+    {
+      "label": {
+        "en": "Databases",
+        "ar": "قواعد البيانات"
+      },
+      "items": [
+        "MySQL",
+        "MongoDB",
+        "SQLite"
+      ]
+    },
+    {
+      "label": {
+        "en": "Development tools",
+        "ar": "أدوات التطوير"
+      },
+      "items": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Xcode"
+      ]
+    },
+    {
+      "label": {
+        "en": "Design & project management",
+        "ar": "التصميم وإدارة المشاريع"
+      },
+      "items": [
+        "Figma",
+        "Jira",
+        "Canva",
+        "Photoshop"
+      ]
+    }
+  ],
+  "about": {
+    "title": {
+      "en": "About Me",
+      "ar": "نبذة عني"
+    },
+    "_note": "Wrap a word in **double asterisks** to give it subtle gold emphasis.",
+    "paragraphs": [
+      {
+        "en": "I’m Ghala Ahmad Alshreef, an Information Technology graduate based in Riyadh. I enjoy both sides of a technology project: building software and working with the people who bring it to life. At Mobily, I coordinated technical projects and helped organize user acceptance testing. As the team lead for Bunyan AI, I worked with our developers to turn requirements into tasks we could build and test together.",
+        "ar": "أنا غلا أحمد الشريف، خريجة تقنية معلومات ومقيمة في الرياض. أستمتع بجانبين من العمل التقني، تطوير البرمجيات والعمل مع الفريق اللي يحوّل الفكرة إلى منتج. خلال تدريبي في موبايلي، نسّقت مشاريع تقنية وساهمت في تنظيم اختبارات قبول المستخدم. وفي بُنيان، قدت الفريق واشتغلت مع المطوّرين على تحويل المتطلبات إلى مهام واضحة نقدر ننفّذها ونختبرها مع بعض."
+      },
+      {
+        "en": "I’m a graduate of the Apple Developer Academy, Tuwaiq Academy, the Saudi Digital Academy, and SDAIA Academy, and I hold certifications from **AWS**, **Oracle**, and **Google**. My projects span web development, iOS apps, computer vision, and virtual reality. I’m open to roles across technology where I can contribute through hands-on development, problem-solving, and project coordination.",
+        "ar": "أنا خريجة أكاديمية مطوّري آبل، وأكاديمية طويق، والأكاديمية السعودية الرقمية، وأكاديمية سدايا، وأحمل شهادات من **AWS** و**Oracle** و**Google**. تنوّعت مشاريعي بين تطوير الويب وتطبيقات الآيفون والرؤية الحاسوبية والواقع الافتراضي. أتطلع لفرص متنوعة في المجال التقني أقدر أساهم فيها بخبرتي في التطوير وحل المشكلات وتنسيق المشاريع."
+      }
+    ]
+  }
+}

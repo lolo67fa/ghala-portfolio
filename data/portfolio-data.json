@@ -1057,12 +1057,12 @@
         "ar": "صمّمته وبنيته بالكامل"
       },
       "problem": {
-        "en": "Job seekers rarely know how well their CV and LinkedIn profile fit the role they actually want.",
-        "ar": "الباحث عن عمل نادرًا يعرف وش مدى توافق سيرته الذاتية وحسابه في LinkedIn مع الوظيفة اللي يبيها."
+        "en": "Built an AI-powered career assistant using React, Flask, and Gemini API to analyze CVs and LinkedIn profiles, evaluate their compatibility with job requirements, and generate personalized recommendations to improve job applications.",
+        "ar": "بنيت مساعدًا مهنيًا بالذكاء الاصطناعي باستخدام React وFlask وGemini API، يحلّل السيرة الذاتية وحساب LinkedIn، ويقيّم توافقهما مع متطلبات الوظيفة، ويقدّم توصيات مخصّصة لتحسين طلبات التوظيف."
       },
       "summary": {
-        "en": "An AI career assistant powered by Gemini. It analyzes a CV, scores the CV and LinkedIn profile against a target role, rewrites application content, and drafts a LinkedIn About section.",
-        "ar": "مساعد مهني بالذكاء الاصطناعي يعتمد على Gemini. يحلّل السيرة الذاتية، ويقيّم السيرة وحساب LinkedIn مقابل الوظيفة المستهدفة، ويعيد صياغة محتوى التقديم، ويكتب مسودة لنبذة LinkedIn."
+        "en": "Job seekers rarely know how well their CV and LinkedIn profile fit the role they actually want.\n\nAn AI career assistant powered by Gemini. It analyzes a CV, scores the CV and LinkedIn profile against a target role, rewrites application content, and drafts a LinkedIn About section.",
+        "ar": "الباحث عن عمل نادرًا يعرف وش مدى توافق سيرته الذاتية وحسابه في LinkedIn مع الوظيفة اللي يبيها.\n\nمساعد مهني بالذكاء الاصطناعي يعتمد على Gemini. يحلّل السيرة الذاتية، ويقيّم السيرة وحساب LinkedIn مقابل الوظيفة المستهدفة، ويعيد صياغة محتوى التقديم، ويكتب مسودة لنبذة LinkedIn."
       },
       "contributionTitle": "whatIBuilt",
       "contribution": [

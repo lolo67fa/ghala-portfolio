@@ -17,7 +17,9 @@
   "links": {
     "github": "https://github.com/lolo67fa",
     "linkedin": "https://www.linkedin.com/in/ghala-a-670a62380",
-    "email": "lolo67fas@gmail.com"
+    "email": "lolo67fas@gmail.com",
+    "cv": "assets/Ghala-Alshreef-CV.pdf",
+    "cvFileName": "Ghala-Alshreef-CV.pdf"
   },
   "ui": {
     "skip": {
@@ -123,6 +125,14 @@
     "playVR": {
       "en": "Play in VR on itch.io",
       "ar": "العبها بالواقع الافتراضي على itch.io"
+    },
+    "downloadCv": {
+      "en": "Download my CV",
+      "ar": "حمّل سيرتي الذاتية"
+    },
+    "cvMeta": {
+      "en": "PDF",
+      "ar": "PDF"
     }
   },
   "hero": {
@@ -131,8 +141,8 @@
       "ar": "تقنية المعلومات · تطوير البرمجيات والمشاريع التقنية · الرياض"
     },
     "headline": {
-      "en": "I build AI tools that answer questions, track movement, and turn ideas into software.",
-      "ar": "أبني أدوات ذكية تساعدك تسأل مستنداتك، وتتابع الحركة بالفيديو، وتحوّل فكرتك إلى تطبيق."
+      "en": "I build practical software, from web and iOS apps to AI tools, and help teams turn ideas into working products.",
+      "ar": "أبني برمجيات عملية، من تطبيقات الويب والآيفون إلى أدوات الذكاء الاصطناعي، وأساعد الفرق تحوّل أفكارها إلى منتجات تشتغل."
     },
     "intro": {
       "en": "I study Information Technology at the University of Tabuk and I’m spending a visiting semester at King Saud University. My work brings together applied AI, software development, and the experience I gained coordinating technical projects at Mobily.",
@@ -1355,12 +1365,12 @@
   },
   "contact": {
     "title": {
-      "en": "I’m interested in AI engineering opportunities and collaborations on applied AI projects.",
-      "ar": "أبحث عن فرص في هندسة الذكاء الاصطناعي، ويسعدني التعاون في مشاريع الذكاء الاصطناعي التطبيقي."
+      "en": "I’m interested in technology opportunities where I can build practical solutions and grow with a team.",
+      "ar": "أبحث عن فرص في المجال التقني أقدر أبني فيها حلول عملية وأتطوّر مع الفريق."
     },
     "text": {
-      "en": "If you’re building something where AI meets real users, I’d love to hear about it.",
-      "ar": "إذا تشتغل على شيء يجمع الذكاء الاصطناعي بمستخدمين حقيقيين، يسعدني أسمع عنه."
+      "en": "I’m currently looking for a full-time role or an early-career opportunity in technology. If your team is hiring, I’d be glad to hear from you.",
+      "ar": "أبحث حاليًا عن وظيفة أو فرصة في المجال التقني. إذا عندكم فرصة مناسبة، يسعدني أسمع منكم."
     },
     "github": {
       "en": "GitHub",

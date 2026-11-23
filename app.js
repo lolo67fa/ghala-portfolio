@@ -62,6 +62,7 @@
       return '<svg width="' + size + '" height="' + size + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"></path></svg>';
     },
     vr: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9.5A2.5 2.5 0 0 1 5.5 7h13A2.5 2.5 0 0 1 21 9.5v5a2.5 2.5 0 0 1-2.5 2.5h-3.2l-1.6-2.2a2 2 0 0 0-3.4 0L8.7 17H5.5A2.5 2.5 0 0 1 3 14.5z"></path><circle cx="8" cy="12" r="1.6"></circle><circle cx="16" cy="12" r="1.6"></circle></svg>',
+    download: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg>',
     mail: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>'
   };
 
@@ -255,13 +256,14 @@
       altNameLang: lang === 'ar' ? 'en' : 'ar',
       mapStars: mapStars, caps: caps, about: about,
       toolGroups: (d.toolGroups || []).map(function (g) { return { label: L(g.label), items: (g.items || []).map(L) }; }),
-      links: { github: links.github || '', linkedin: links.linkedin || '', email: links.email || '' },
+      links: { github: links.github || '', linkedin: links.linkedin || '', email: links.email || '',
+               cv: links.cv || '', cvFileName: links.cvFileName || 'CV.pdf' },
       ui: {
         skip: U('skip'), navProjects: U('navProjects'), navExperience: U('navExperience'), navContact: U('navContact'),
         navLabel: lang === 'ar' ? 'التنقل الرئيسي' : 'Main navigation',
         langButton: U('langButton'), langButtonLang: U('langButtonLang'), langButtonAria: U('langButtonAria'),
         langButtonCls: lang === 'en' ? 'ar-label' : '',
-        opensNewTab: U('opensNewTab'), footer: U('footer')
+        opensNewTab: U('opensNewTab'), footer: U('footer'), downloadCv: U('downloadCv'), cvMeta: U('cvMeta') || 'PDF'
       },
       hero: { eyebrow: L(hero.eyebrow), headline: L(hero.headline), primaryCta: L(hero.primaryCta), secondaryCta: L(hero.secondaryCta) },
       sec: secV,
@@ -277,6 +279,13 @@
   }
 
   /* ---------- templates ---------- */
+
+  function cvButton(v) {
+    var url = safeUrl(v.links.cv);
+    if (!url) return '';
+    return '<a class="btn" href="' + esc(url) + '" download="' + esc(v.links.cvFileName) + '" type="application/pdf">' +
+      ICON.download + esc(v.ui.downloadCv) + '<span class="email-addr">' + esc(v.ui.cvMeta) + '</span></a>';
+  }
 
   function extLink(className, href, inner, newTab, key) {
     var url = safeUrl(href);
@@ -469,6 +478,7 @@
       '<div class="actions">' +
       '<a class="btn primary" href="#projects">' + esc(v.hero.primaryCta) + ICON.down + '</a>' +
       extLink('btn', v.links.linkedin, esc(v.hero.secondaryCta) + ICON.ext, v.ui.opensNewTab) +
+      cvButton(v) +
       '</div></div></div></section>';
 
     // About
@@ -558,6 +568,7 @@
       '<h2 class="contact-title" id="contact-title">' + esc(v.contact.title) + '</h2>' +
       '<p class="contact-text">' + esc(v.contact.text) + '</p><div class="actions">' +
       extLink('btn primary', v.links.linkedin, esc(v.contact.linkedin) + ICON.ext, v.ui.opensNewTab) +
+      cvButton(v) +
       (mail ? '<a class="btn" href="' + esc(mail) + '">' + ICON.mail + esc(v.contact.email) + '<span class="email-addr">' + esc(v.links.email) + '</span></a>' : '') +
       extLink('btn', v.links.github, esc(v.contact.github) + ICON.ext, v.ui.opensNewTab) +
       '</div></div></div></div></section>';

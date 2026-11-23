@@ -2,8 +2,8 @@
   "_howToEdit": "All portfolio content lives in this file. Every piece of text has an \"en\" and an \"ar\" version. Edit the text, save, and the page updates. To add a project, copy an existing entry in \"featured\" or \"more\". Only add links you actually want public.",
   "person": {
     "name": {
-      "en": "Ghala Ahmad Alshreef",
-      "ar": "غلا أحمد الشريف"
+      "en": "Ghala Alshreef",
+      "ar": "غلا الشريف"
     },
     "shortName": {
       "en": "Ghala Alshreef",
@@ -99,8 +99,8 @@
       "ar": "تعذّر تحميل محتوى الملف (portfolio-data.json)."
     },
     "footer": {
-      "en": "© 2026 Ghala Ahmad Alshreef · Riyadh",
-      "ar": "© 2026 غلا أحمد الشريف · الرياض"
+      "en": "© 2026 Ghala Alshreef · Riyadh",
+      "ar": "© 2026 غلا الشريف · الرياض"
     },
     "viewLive": {
       "en": "Open the live platform",
@@ -1542,8 +1542,8 @@
     "_note": "Wrap a word in **double asterisks** to give it subtle gold emphasis.",
     "paragraphs": [
       {
-        "en": "I’m Ghala Ahmad Alshreef, an Information Technology graduate based in Riyadh. I enjoy both sides of a technology project: building software and working with the people who bring it to life. At Mobily, I coordinated technical projects and helped organize user acceptance testing. As the team lead for Bunyan AI, I worked with our developers to turn requirements into tasks we could build and test together.",
-        "ar": "أنا غلا أحمد الشريف، خريجة تقنية معلومات ومقيمة في الرياض. أستمتع بجانبين من العمل التقني، تطوير البرمجيات والعمل مع الفريق اللي يحوّل الفكرة إلى منتج. خلال تدريبي في موبايلي، نسّقت مشاريع تقنية وساهمت في تنظيم اختبارات قبول المستخدم. وفي بُنيان، قدت الفريق واشتغلت مع المطوّرين على تحويل المتطلبات إلى مهام واضحة نقدر ننفّذها ونختبرها مع بعض."
+        "en": "I’m Ghala Alshreef, an Information Technology graduate based in Riyadh. I enjoy both sides of a technology project: building software and working with the people who bring it to life. At Mobily, I coordinated technical projects and helped organize user acceptance testing. As the team lead for Bunyan AI, I worked with our developers to turn requirements into tasks we could build and test together.",
+        "ar": "أنا غلا الشريف، خريجة تقنية معلومات ومقيمة في الرياض. أستمتع بجانبين من العمل التقني، تطوير البرمجيات والعمل مع الفريق اللي يحوّل الفكرة إلى منتج. خلال تدريبي في موبايلي، نسّقت مشاريع تقنية وساهمت في تنظيم اختبارات قبول المستخدم. وفي بُنيان، قدت الفريق واشتغلت مع المطوّرين على تحويل المتطلبات إلى مهام واضحة نقدر ننفّذها ونختبرها مع بعض."
       },
       {
         "en": "I’m a graduate of the Apple Developer Academy, Tuwaiq Academy, the Saudi Digital Academy, and SDAIA Academy, and I hold certifications from **AWS**, **Oracle**, and **Google**. My projects span web development, iOS apps, computer vision, and virtual reality. I’m open to roles across technology where I can contribute through hands-on development, problem-solving, and project coordination.",

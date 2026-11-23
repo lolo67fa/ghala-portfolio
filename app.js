@@ -1,4 +1,4 @@
-/* Ghala Ahmad Alshreef — portfolio
+/* Ghala Alshreef — portfolio
  * Plain JavaScript port of the reference design's component logic.
  * All content comes from data/portfolio-data.json. Every string from the
  * data is escaped before it is inserted, so nothing from the JSON is ever
@@ -478,7 +478,6 @@
       '<div class="actions">' +
       '<a class="btn primary" href="#projects">' + esc(v.hero.primaryCta) + ICON.down + '</a>' +
       extLink('btn', v.links.linkedin, esc(v.hero.secondaryCta) + ICON.ext, v.ui.opensNewTab) +
-      cvButton(v) +
       '</div></div></div></section>';
 
     // About
@@ -591,6 +590,30 @@
     document.documentElement.setAttribute('dir', dir);
   }
 
+  /* Navbar: mark the link of the section currently in view (aria-current). */
+  var NAV_SECTIONS = ['projects', 'experience', 'contact'];
+  var navTicking = false;
+  function updateNav() {
+    navTicking = false;
+    var header = root.querySelector('.top');
+    var offset = (header ? header.offsetHeight : 70) + 40;
+    var current = null;
+    NAV_SECTIONS.forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el && el.getBoundingClientRect().top <= offset) current = id;
+    });
+    // at the very bottom the last section is the one being read
+    if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) current = 'contact';
+    var links = root.querySelectorAll('.nav a');
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].getAttribute('href') === '#' + current) links[i].setAttribute('aria-current', 'location');
+      else links[i].removeAttribute('aria-current');
+    }
+  }
+  window.addEventListener('scroll', function () {
+    if (!navTicking) { navTicking = true; window.requestAnimationFrame(updateNav); }
+  }, { passive: true });
+
   function render() {
     var lang = state.lang === 'ar' ? 'ar' : 'en';
     applyLang(lang);
@@ -607,6 +630,7 @@
     var focusKey = active && root.contains(active) ? active.getAttribute('data-k') : null;
 
     root.innerHTML = page(buildView());
+    updateNav();
 
     if (focusKey) {
       var el = root.querySelector('[data-k="' + focusKey.replace(/["\\]/g, '\\$&') + '"]');

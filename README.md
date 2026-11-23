@@ -1,4 +1,4 @@
-# Ghala Ahmad Alshreef — Portfolio
+# Ghala Alshreef — Portfolio
 
 A static, bilingual (English / Arabic) portfolio site. Plain HTML, CSS and vanilla JavaScript: no framework and no build step.
 

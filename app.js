@@ -301,8 +301,8 @@
     var h = '<div class="card-visual v-bunyan"><span class="vis-caption">' + esc(p.shotCaption) + '</span>';
     if (p.hasShots) {
       h += '<figure class="shot">' + shotImg(p, 1600, 1160) + '</figure>' +
-        '<div class="shot-tabs" role="group" aria-label="' + esc(p.shotCaption) + '">' +
-        p.shots.map(function (sh) { return shotTab(p, sh, false); }).join('') + '</div>';
+        (p.shots.length > 1 ? '<div class="shot-tabs" role="group" aria-label="' + esc(p.shotCaption) + '">' +
+          p.shots.map(function (sh) { return shotTab(p, sh, false); }).join('') + '</div>' : '');
     }
     h += '<p class="flow-cap">' + esc(p.caption) + '</p><ol class="flow" aria-label="' + esc(p.caption) + '">' +
       p.steps.map(function (st) {

@@ -10,7 +10,14 @@
   var LANG_KEY = 'ghala-portfolio-lang';
   var DATA_URL = 'data/portfolio-data.json';
   var STAR_POINTS = [[10, 72], [24, 46], [40, 58], [54, 28], [68, 42], [80, 18], [92, 50]];
-  var MAP_PTS = [[4, 64], [19, 26], [34, 72], [50, 30], [66, 70], [81, 26], [96, 62]];
+  // Constellation-map star positions (percent). One star per featured project:
+  // x is spread evenly from 4 to 96, y zig-zags like the original 7-star layout.
+  var MAP_Y = [64, 26, 72, 30, 70, 26, 62, 30, 68, 28];
+  function mapPoints(n) {
+    var pts = [];
+    for (var i = 0; i < n; i++) pts.push([n > 1 ? Math.round(4 + (92 * i) / (n - 1)) : 50, MAP_Y[i % MAP_Y.length]]);
+    return pts;
+  }
 
   var root = document.getElementById('app');
   var state = { data: null, error: false, lang: 'en', open: {}, stars: 3, shotBy: {}, darbKnown: true };
@@ -204,6 +211,7 @@
       };
     });
 
+    var MAP_PTS = mapPoints(Math.min(featured.length, MAP_Y.length));
     var mapStars = featured.slice(0, MAP_PTS.length).map(function (f, i) {
       return { name: f.name, href: '#' + f.cardId, x: MAP_PTS[i][0], y: MAP_PTS[i][1], tw: i % 2 ? 'tw2' : 'tw' };
     });
@@ -490,8 +498,8 @@
       '<ul class="cards">' + v.featured.map(card).join('') + '</ul>' +
       '</div></section>';
 
-    // More of my work
-    h += '<section class="section" id="more" aria-labelledby="more-title" style="padding-top: 0"><div class="wrap">' +
+    // More of my work (only when the data has items)
+    if (v.more.length) h += '<section class="section" id="more" aria-labelledby="more-title" style="padding-top: 0"><div class="wrap">' +
       '<p class="kicker">' + esc(v.sec.moreKicker) + '</p>' +
       '<h2 class="h2" id="more-title" style="font-size: clamp(24px, 2.4vw, 32px); margin-bottom: 24px">' + esc(v.sec.moreTitle) + '</h2>' +
       '<ul class="more-grid">' + v.more.map(function (m) {

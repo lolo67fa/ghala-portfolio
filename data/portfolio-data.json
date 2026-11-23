@@ -510,6 +510,154 @@
       }
     },
     {
+      "id": "hader",
+      "visual": "bunyan",
+      "name": {
+        "en": "Hader",
+        "ar": "حاضر"
+      },
+      "altName": {
+        "en": "حاضر",
+        "ar": "Hader"
+      },
+      "status": {
+        "en": "Graduation project · Desktop app",
+        "ar": "مشروع التخرّج · تطبيق سطح مكتب"
+      },
+      "role": {
+        "en": "Graduation project · Redesign (UX/UI) and macOS support",
+        "ar": "مشروع التخرّج · إعادة تصميم الواجهة والتجربة ودعم macOS"
+      },
+      "problem": {
+        "en": "Taking attendance by hand is slow and error-prone, and instructors need a record they can trust.",
+        "ar": "تسجيل الحضور يدويًا بطيء وتكثر فيه الأخطاء، والمدرّس يحتاج سجلًا يقدر يثق فيه."
+      },
+      "summary": {
+        "en": "A desktop app that recognises registered students by face and records their attendance per section in a daily Excel file. I redesigned it as «حاضر | Hader» so an instructor using it for the first time knows how to start a session and review the results.",
+        "ar": "تطبيق سطح مكتب يتعرّف على الطلاب المسجّلين من وجوههم، ويسجّل حضورهم لكل شعبة في ملف Excel يومي. أعدت تصميمه باسم «حاضر | Hader» عشان المدرّس اللي يستخدمه أول مرة يعرف كيف يبدأ جلسة الحضور ويراجع نتائجها."
+      },
+      "contributionTitle": "whatIDid",
+      "contribution": [
+        {
+          "label": {
+            "en": "Session experience",
+            "ar": "تجربة جلسة الحضور"
+          },
+          "en": "Clear camera states (starting, ready, recorded, already recorded, camera blocked or missing). Attendance shows as recorded only after the row is read back from the Excel file, and a student is recorded once per section per day.",
+          "ar": "حالات واضحة للكاميرا (جارٍ التشغيل، جاهز للمسح، تم التسجيل، مسجّل مسبقًا، الكاميرا محجوبة أو غير موجودة). لا يظهر «تم تسجيل الحضور» إلا بعد قراءة السطر من ملف Excel، والطالب يُسجَّل مرة واحدة لكل شعبة في اليوم."
+        },
+        {
+          "label": {
+            "en": "Visual identity",
+            "ar": "الهوية البصرية"
+          },
+          "en": "A brand mark of an open-cornered scan frame with a check that completes inside it, reused on the camera when attendance is saved. One design system for colours, type, buttons, tables and focus states.",
+          "ar": "علامة على شكل إطار مسح بزوايا مفتوحة تكتمل داخله علامة صح، وتتكرر على الكاميرا عند حفظ الحضور. ونظام تصميم واحد للألوان والخطوط والأزرار والجداول وحالات التركيز."
+        },
+        {
+          "label": {
+            "en": "Registration and log",
+            "ar": "التسجيل والسجل"
+          },
+          "en": "Registration in order of use (name, ID, photo) with errors next to each field, and an attendance log by section and date with empty and unreadable-file states.",
+          "ar": "تسجيل الطالب بترتيب الاستخدام (الاسم ثم الرقم ثم الصورة) مع إظهار الخطأ بجانب الحقل، وسجل حضور حسب الشعبة والتاريخ مع حالة السجل الفارغ وحالة تعذّر قراءة الملف."
+        },
+        {
+          "label": {
+            "en": "macOS support and testing",
+            "ar": "دعم macOS والاختبار"
+          },
+          "en": "Got it running on Apple Silicon (dependency and camera fixes) and added an automated walkthrough that checks the whole journey without a camera.",
+          "ar": "شغّلته على أجهزة Mac بمعالج Apple Silicon (إصلاح المكتبات والكاميرا)، وأضفت اختبارًا آليًا يمشي في الرحلة كاملة بدون كاميرا."
+        }
+      ],
+      "methodTitle": "howIWorked",
+      "method": {
+        "en": "I used Claude Code as an AI development tool under my direction. I set the design brief and requirements, tested the app with a real camera, and review the changes through a pull request.",
+        "ar": "استخدمت Claude Code كأداة تطوير تحت إدارتي: حددت متطلبات التصميم، واختبرت التطبيق بكاميرا حقيقية، وأراجع التعديلات عبر طلب دمج (Pull Request)."
+      },
+      "toolsLabel": "tools",
+      "tools": [
+        "Python",
+        "OpenCV",
+        "face_recognition",
+        "dlib",
+        "CustomTkinter",
+        "pandas",
+        "Excel"
+      ],
+      "github": "https://github.com/lolo67fa/Smart-Attendance-System",
+      "screenshots": {
+        "caption": {
+          "en": "Screenshots from the app",
+          "ar": "لقطات من التطبيق"
+        },
+        "items": [
+          {
+            "src": "assets/hader-home.webp",
+            "label": {
+              "en": "Start",
+              "ar": "البداية"
+            },
+            "alt": {
+              "en": "Hader home screen: choose a section, then «Start attendance session»; register, attendance log and excuses as other tasks",
+              "ar": "شاشة البداية في حاضر: اختيار الشعبة ثم «بدء جلسة الحضور»، والتسجيل والسجل والأعذار كمهام أخرى"
+            }
+          },
+          {
+            "src": "assets/hader-session.webp",
+            "label": {
+              "en": "Session",
+              "ar": "الجلسة"
+            },
+            "alt": {
+              "en": "Hader attendance session: live camera with a green scan frame and check around the student's face, an «Attendance recorded» panel, and today's list for the section",
+              "ar": "جلسة الحضور في حاضر: الكاميرا المباشرة مع إطار مسح أخضر وعلامة صح حول وجه الطالبة، ولوحة «تم تسجيل الحضور»، وقائمة حضور الشعبة اليوم"
+            }
+          },
+          {
+            "src": "assets/hader-log.webp",
+            "label": {
+              "en": "Log",
+              "ar": "السجل"
+            },
+            "alt": {
+              "en": "Hader attendance log for one section and date: time, student name and university ID in aligned columns",
+              "ar": "سجل الحضور في حاضر لشعبة وتاريخ محددين: الوقت واسم الطالب والرقم الجامعي في أعمدة مرتبة"
+            }
+          }
+        ]
+      },
+      "visualText": {
+        "caption": {
+          "en": "From section to saved record",
+          "ar": "من اختيار الشعبة إلى السجل المحفوظ"
+        },
+        "steps": [
+          {
+            "en": "Choose section",
+            "ar": "اختيار الشعبة"
+          },
+          {
+            "en": "Start session",
+            "ar": "بدء الجلسة"
+          },
+          {
+            "en": "Face recognised",
+            "ar": "التعرّف على الوجه"
+          },
+          {
+            "en": "Saved to Excel",
+            "ar": "الحفظ في Excel"
+          },
+          {
+            "en": "Attendance log",
+            "ar": "سجل الحضور"
+          }
+        ]
+      }
+    },
+    {
       "id": "wahj",
       "visual": "wahj",
       "name": {
@@ -1083,27 +1231,7 @@
       }
     }
   ],
-  "more": [
-    {
-      "name": {
-        "en": "Smart Attendance System",
-        "ar": "نظام الحضور الذكي"
-      },
-      "label": {
-        "en": "Graduation project",
-        "ar": "مشروع التخرّج"
-      },
-      "text": {
-        "en": "An attendance application for registering and managing attendance.",
-        "ar": "تطبيق لتسجيل الحضور وإدارته."
-      },
-      "tools": [
-        "Python",
-        "OpenCV",
-        "CustomTkinter"
-      ]
-    }
-  ],
+  "more": [],
   "experience": {
     "featured": {
       "org": {

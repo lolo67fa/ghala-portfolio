@@ -982,12 +982,12 @@
         "ar": "تصميم وتطوير"
       },
       "problem": {
-        "en": "Finding one answer in a long PDF usually means scrolling and skimming page after page.",
-        "ar": "عشان تلقى إجابة وحدة في ملف PDF طويل، غالبًا بتقلّب وتتصفح صفحة ورا صفحة."
+        "en": "Built a RAG-based PDF assistant using Python, Streamlit, TF-IDF, and Cosine Similarity, enabling users to ask questions and retrieve relevant information from their documents.",
+        "ar": "بنيت مساعدًا لملفات PDF يعتمد على تقنية RAG باستخدام Python وStreamlit وTF-IDF وCosine Similarity، يتيح للمستخدم طرح أسئلته واسترجاع المعلومات المرتبطة بها من مستنداته."
       },
       "summary": {
-        "en": "Upload a PDF, ask a question in your own words, and the app points you to the passages most likely to answer it. I built it in Python with a Streamlit interface.",
-        "ar": "ترفع ملف PDF، وتسأل بأسلوبك، والتطبيق يدلّك على الفقرات الأقرب للإجابة. بنيته بلغة Python وواجهة Streamlit."
+        "en": "Finding one answer in a long PDF usually means scrolling and skimming page after page.\n\nUpload a PDF, ask a question in your own words, and the app points you to the passages most likely to answer it. I built it in Python with a Streamlit interface.",
+        "ar": "عشان تلقى إجابة وحدة في ملف PDF طويل، غالبًا بتقلّب وتتصفح صفحة ورا صفحة.\n\nترفع ملف PDF، وتسأل بأسلوبك، والتطبيق يدلّك على الفقرات الأقرب للإجابة. بنيته بلغة Python وواجهة Streamlit."
       },
       "contributionTitle": "whatIBuilt",
       "contribution": [

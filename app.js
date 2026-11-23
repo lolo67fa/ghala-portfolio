@@ -334,6 +334,10 @@
   }
 
   function visualCv(p) {
+    if (p.hasShots) {  // real screenshot of the live app
+      return '<div class="card-visual v-drone"><span class="vis-caption">' + esc(p.shotCaption) + '</span>' +
+        '<figure class="shot">' + shotImg(p, 800, 554, 'aspect-ratio: 800 / 554') + '</figure></div>';
+    }
     return '<div class="card-visual v-cv"><span class="vis-caption">' + esc(p.caption) + '</span>' +
       '<div class="mini-cv" aria-hidden="true">' +
       '<div class="cv-head"><span class="cv-avatar"></span><span style="flex: 1"><span class="mini-line" style="display: block; width: 70%"></span><span class="mini-line s" style="display: block; width: 45%; margin-bottom: 0"></span></span></div>' +
@@ -433,7 +437,9 @@
       '<span>' + esc(p.toggleLabel) + '</span><span class="chev" aria-hidden="true"></span></button>' +
       '<div id="' + esc(p.panelId) + '">';
     if (p.expanded) {
-      h += '<div class="card-more"><p>' + esc(p.summary) + '</p>' +
+      h += '<div class="card-more">' + String(p.summary).split(/\n\s*\n/).map(function (para) {
+          return '<p>' + esc(para) + '</p>';
+        }).join('') +
         '<p class="more-h">' + esc(p.contributionTitle) + '</p><ul class="contrib">' +
         p.contribution.map(function (c) {
           return '<li>' + (c.label ? '<strong>' + esc(c.label) + ': </strong>' : '') + esc(c.text) + '</li>';

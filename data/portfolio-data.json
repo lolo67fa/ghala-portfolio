@@ -525,41 +525,56 @@
         "ar": "Wahj"
       },
       "status": {
-        "en": "Apple Developer Academy · iOS app",
-        "ar": "أكاديمية أبل للمطورين · تطبيق iOS"
+        "en": "Collaborative iOS project · Apple Developer Academy · SwiftUI",
+        "ar": "مشروع iOS جماعي · أكاديمية أبل للمطورين · SwiftUI"
       },
       "role": {
-        "en": "iOS development in SwiftUI",
-        "ar": "تطوير iOS بـ SwiftUI"
+        "en": "SwiftUI implementation and app integration · team project",
+        "ar": "تطوير الواجهات بـ SwiftUI ودمج التطبيق · مشروع جماعي"
       },
       "problem": {
-        "en": "Daily habits are easy to drop when your progress feels invisible.",
-        "ar": "العادات اليومية سهل تنقطع لما ما تشوف تقدّمك."
+        "en": "Turning everyday habits into a sky of progress: staying motivated is hard when small, everyday efforts feel invisible.",
+        "ar": "نحوّل العادات اليومية إلى سماء من الإنجاز: الاستمرار صعب لما تحس إن جهودك اليومية الصغيرة ما تبان."
       },
       "summary": {
-        "en": "An Arabic habit-building iOS app where daily progress becomes a growing constellation. Complete your habits, earn points, and unlock stars over time.",
-        "ar": "تطبيق iOS عربي لبناء العادات، يتحوّل فيه تقدّمك اليومي إلى كوكبة نجوم تكبر معك. تنجز عاداتك، تجمع نقاط، وتفتح نجوم مع الوقت."
+        "en": "Wahj is an Arabic-first iOS app that turns habit building into a visual journey through the stars. It was created around a familiar challenge: staying motivated when small, everyday efforts feel invisible.\n\nUsers create habits, choose a constellation, and bring it to life through their daily actions. Each completed habit earns points that gradually illuminate the constellation’s stars and connecting paths. As users make progress, they unlock new constellations and build a personal sky that reflects their achievements.\n\nThe experience combines habit tracking, streaks, and an interactive sky with glowing stars and gentle orbital animations. Shared habit journeys let users invite friends and work toward goals together, adding encouragement and accountability to the experience.\n\nDesigned for Arabic-speaking users, Wahj brings together a right-to-left interface, a purple space-inspired identity, and visual rewards that make daily progress tangible.\n\nWorking with my team at the Apple Developer Academy, I contributed to both the SwiftUI implementation and the integration of our individual screens into one connected application.",
+        "ar": "«وهج» تطبيق iOS عربي أولًا، يحوّل بناء العادات إلى رحلة بصرية بين النجوم. انطلق من تحدٍّ مألوف: الاستمرار صعب لما تحس إن جهودك اليومية الصغيرة ما تبان.\n\nينشئ المستخدم عاداته ويختار كوكبة، ثم يحييها بإنجازاته اليومية. كل عادة يكملها تعطيه نقاطًا تضيء نجوم الكوكبة ومساراتها شيئًا فشيئًا، ومع تقدّمه يفتح كوكبات جديدة ويبني سماءه الخاصة التي تعكس إنجازاته.\n\nتجمع التجربة بين تتبّع العادات وسلاسل الأيام المتتالية وسماء تفاعلية بنجوم مضيئة وحركة مدارية هادئة. وتتيح رحلات العادات المشتركة دعوة الأصدقاء والعمل على الأهداف معًا، فتضيف تشجيعًا والتزامًا للتجربة.\n\nصُمّم «وهج» للمستخدمين الناطقين بالعربية، فيجمع واجهة من اليمين لليسار، وهوية بنفسجية مستوحاة من الفضاء، ومكافآت بصرية تخلّي التقدّم اليومي ملموسًا.\n\nمع فريقي في أكاديمية أبل للمطورين، ساهمت في تطوير الواجهات بـ SwiftUI وفي دمج الشاشات اللي بناها كل عضو في تطبيق واحد مترابط."
       },
       "contributionTitle": "myContribution",
       "contribution": [
         {
-          "en": "Built screens in SwiftUI during the Apple Developer Academy.",
-          "ar": "بنيت واجهات بـ SwiftUI خلال أكاديمية أبل للمطورين."
+          "en": "Developed onboarding and constellation-selection screens with an Arabic-first, right-to-left interface.",
+          "ar": "طوّرت شاشات البداية واختيار الكوكبة بواجهة عربية أولًا من اليمين لليسار."
         },
         {
-          "en": "Worked on an Arabic-first, right-to-left interface.",
-          "ar": "اشتغلت على واجهة عربية بالكامل من اليمين لليسار."
+          "en": "Integrated team-built screens and connected navigation and shared habit data across the app.",
+          "ar": "دمجت الشاشات اللي بناها الفريق، وربطت التنقّل وبيانات العادات المشتركة في التطبيق كله."
         },
         {
-          "en": "Focused on the link between a small daily action and its visual reward: every completed habit brings your sky a little closer to complete.",
-          "ar": "ركّزت على الربط بين الفعل اليومي البسيط ومكافأته البصرية: كل عادة تنجزها تقرّب سماك من الاكتمال."
+          "en": "Worked on the habit-completion and reward logic, connecting daily actions to points, streaks, progressive constellation lighting, and unlocks.",
+          "ar": "اشتغلت على منطق إكمال العادات والمكافآت، وربطت الإنجاز اليومي بالنقاط وسلاسل الأيام وإضاءة الكوكبة تدريجيًا وفتح الكوكبات الجديدة."
+        },
+        {
+          "en": "Helped shape the interactive “My Sky” experience, making users’ selected constellations the focus of their progress.",
+          "ar": "ساهمت في تشكيل تجربة «سمائي» التفاعلية، بحيث تكون الكوكبة اللي اختارها المستخدم محور تقدّمه."
+        },
+        {
+          "en": "Tested completion and undo flows, saved progress, and consistency between Home, My Habits, and My Star.",
+          "ar": "اختبرت مسارات الإكمال والتراجع، وحفظ التقدّم، وتوافق البيانات بين الرئيسية و«عاداتي» و«نجمتي»."
+        },
+        {
+          "en": "Coordinated GitHub integration and tested builds on a physical iPhone.",
+          "ar": "نسّقت الدمج على GitHub، واختبرت النسخ على جهاز آيفون فعلي."
         }
       ],
       "toolsLabel": "tools",
       "tools": [
+        "Swift",
         "SwiftUI",
-        "iOS",
-        "Arabic RTL interface"
+        "Xcode",
+        "Git",
+        "GitHub",
+        "Figma"
       ],
       "github": "https://github.com/lolo67fa/wahj",
       "visualText": {
@@ -646,8 +661,8 @@
         "ar": "مو كل أحد يقدر يسافر للعُلا ويعيش تجربة الحِجر وتراثها النبطي بنفسه."
       },
       "summary": {
-        "en": "A single-player VR story adventure inspired by Hegra and Nabataean heritage, built for Meta Quest 3 and showcased at the bootcamp’s Demo Day.",
-        "ar": "مغامرة قصصية بالواقع الافتراضي للاعب واحد، مستوحاة من الحِجر والتراث النبطي، مبنية لنظارة Meta Quest 3 وعُرضت في يوم العرض الختامي للمعسكر."
+        "en": "Secret of Hegra is a VR puzzle adventure inspired by Nabataean culture and the landscapes of AlUla, built in Unity for Meta Quest 3.\n\nThe journey begins at a caravan camp under a star-filled sky. Carrying a lantern, players explore a night market and meet Kamkam, a kohl seller who introduces the mystery of a hidden treasure. Her story leads them on a search for three clues: revealing an inscription on Elephant Rock, guiding water through channels, and solving a puzzle connected to an eagle and the stars.\n\nAlong the way, players create a pottery shard bearing their name in Nabataean-inspired letters. Together with the three clues, this personal artifact unlocks a hidden workshop and reveals the treasure.\n\nThe experience combines storytelling, hands-on puzzles, and atmospheric exploration, inviting players to discover a fictional world inspired by Saudi cultural heritage.",
+        "ar": "«سر الحِجر» مغامرة ألغاز بالواقع الافتراضي، مستوحاة من الثقافة النبطية وطبيعة العُلا، مبنية بـ Unity لنظارة Meta Quest 3.\n\nتبدأ الرحلة في مخيّم قافلة تحت سماء مليئة بالنجوم. يحمل اللاعب فانوسًا ويستكشف سوقًا ليليًا، ويلتقي «كمكم» بائعة الكحل التي تحكي له لغز كنز مخفي. وتقوده قصتها إلى البحث عن ثلاثة أدلة: كشف نقش على جبل الفيل، وتوجيه الماء عبر القنوات، وحلّ لغز مرتبط بالنسر والنجوم.\n\nوخلال الرحلة يصنع اللاعب قطعة فخار تحمل اسمه بحروف مستوحاة من الخط النبطي. ومع الأدلة الثلاثة، تفتح هذه القطعة الشخصية ورشة مخفية وتكشف الكنز.\n\nتجمع التجربة بين السرد القصصي والألغاز التفاعلية والاستكشاف في أجواء غامرة، وتدعو اللاعب لاكتشاف عالم خيالي مستوحى من التراث الثقافي السعودي."
       },
       "contributionTitle": "whatIBuilt",
       "contribution": [
@@ -1113,6 +1128,25 @@
             "text": {
               "en": "LinkedIn About, rewritten for the role",
               "ar": "نبذة LinkedIn معاد كتابتها للوظيفة"
+            }
+          }
+        ]
+      },
+      "screenshots": {
+        "caption": {
+          "en": "Screenshot from the live app",
+          "ar": "لقطة من التطبيق المنشور"
+        },
+        "items": [
+          {
+            "src": "assets/smartcv-home.webp",
+            "label": {
+              "en": "Live app",
+              "ar": "التطبيق"
+            },
+            "alt": {
+              "en": "Margin, the live CV and LinkedIn review app: “Your CV, marked up like an editor would”, an example rewrite of a CV line, and the form to upload a CV, pick a target role and choose what to review",
+              "ar": "تطبيق Margin المنشور لمراجعة السيرة الذاتية وLinkedIn: عنوان «سيرتك الذاتية بتعليقات محرّر»، ومثال على إعادة صياغة سطر من السيرة، ونموذج رفع السيرة واختيار الوظيفة المستهدفة ونوع المراجعة"
             }
           }
         ]

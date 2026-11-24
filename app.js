@@ -152,6 +152,19 @@
     var sec = d.sections || {};
     var secV = {};
     Object.keys(sec).forEach(function (k) { secV[k] = L(sec[k]); });
+    // Project count in words, so the heading always matches the cards.
+    var nProjects = (d.featured || []).length;
+    var EN_NUM = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
+    var AR_M = { 3: 'ثلاثة', 4: 'أربعة', 5: 'خمسة', 6: 'ستة', 7: 'سبعة', 8: 'ثمانية', 9: 'تسعة', 10: 'عشرة' };
+    var AR_F = { 3: 'ثلاث', 4: 'أربع', 5: 'خمس', 6: 'ست', 7: 'سبع', 8: 'ثماني', 9: 'تسع', 10: 'عشر' };
+    var enWord = EN_NUM[nProjects] || String(nProjects);
+    Object.keys(secV).forEach(function (k) {
+      secV[k] = String(secV[k])
+        .replace(/\{Count\}/g, enWord.charAt(0).toUpperCase() + enWord.slice(1))
+        .replace(/\{count\}/g, enWord)
+        .replace(/\{countM\}/g, AR_M[nProjects] || String(nProjects))
+        .replace(/\{countF\}/g, AR_F[nProjects] || String(nProjects));
+    });
 
     var featured = (d.featured || []).map(function (p, i) {
       var open = !!s.open[p.id];

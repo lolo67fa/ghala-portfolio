@@ -230,8 +230,8 @@
       "ar": "أبرز أعمالي"
     },
     "projectsTitle": {
-      "en": "Seven projects, seven different problems",
-      "ar": "سبعة مشاريع، وسبع مشكلات مختلفة"
+      "en": "{Count} projects, {count} different problems",
+      "ar": "{countM} مشاريع، و{countF} مشكلات مختلفة"
     },
     "projectsIntro": {
       "en": "Each card shows the problem first. Open a card to see what I built and the tools behind it.",

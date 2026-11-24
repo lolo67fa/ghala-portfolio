@@ -283,7 +283,7 @@
   function cvButton(v) {
     var url = safeUrl(v.links.cv);
     if (!url) return '';
-    return '<a class="btn" href="' + esc(url) + '" download="' + esc(v.links.cvFileName) + '" type="application/pdf">' +
+    return '<a class="btn" href="' + esc(url) + '" download="' + esc(v.links.cvFileName) + '" type="application/pdf" data-track="cv-download">' +
       ICON.download + esc(v.ui.downloadCv) + '<span class="email-addr">' + esc(v.ui.cvMeta) + '</span></a>';
   }
 
@@ -645,6 +645,13 @@
   }
 
   /* ---------- events ---------- */
+
+  // Count CV downloads in GoatCounter (anonymous; no cookies). Does nothing if the counter is blocked.
+  root.addEventListener('click', function (e) {
+    var link = e.target.closest ? e.target.closest('[data-track="cv-download"]') : null;
+    if (!link || !window.goatcounter || typeof window.goatcounter.count !== 'function') return;
+    window.goatcounter.count({ path: 'cv-download', title: 'CV download (' + state.lang + ')', event: true });
+  });
 
   root.addEventListener('click', function (e) {
     var btn = e.target.closest ? e.target.closest('[data-action]') : null;

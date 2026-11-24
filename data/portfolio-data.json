@@ -602,6 +602,17 @@
         },
         "items": [
           {
+            "src": "assets/wahj-home.webp",
+            "label": {
+              "en": "Home",
+              "ar": "الرئيسية"
+            },
+            "alt": {
+              "en": "Wahj home screen: a good-evening greeting, a one-day streak, the Little Dipper at 85 of 100 points, the week’s days, and today’s habits with Reading checked off",
+              "ar": "الشاشة الرئيسية في وهج: تحية المساء، يوم واحد متتالي، كوكبة الدب الأصغر بـ 85 من 100 نقطة، أيام الأسبوع، وعادات اليوم مع إنجاز القراءة"
+            }
+          },
+          {
             "src": "assets/wahj-sky.webp",
             "label": {
               "en": "My sky",

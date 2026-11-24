@@ -363,13 +363,14 @@ a{color:#C9BEF7}a:hover{color:#F4E4B8}
 }
 
 /* Hader card: full width like Bunyan; the poster keeps its own proportions */
-.card-hader{grid-column:1 / -1}
-.card-hader .card-art{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
-.card-hader .card-visual{border-bottom:0;border-inline-end:1px solid var(--line)}
+.card-hader,.card-bayan{grid-column:1 / -1}
+.card-hader .card-art,.card-bayan .card-art{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.card-hader .card-visual,.card-bayan .card-visual{border-bottom:0;border-inline-end:1px solid var(--line)}
 .card-hader .shot img{aspect-ratio:1600 / 1160;object-fit:contain}
+.card-bayan .shot img{aspect-ratio:1600 / 1258;object-fit:contain}
 @media (max-width: 960px){
-  .card-hader .card-art{display:flex}
-  .card-hader .card-visual{border-inline-end:0;border-bottom:1px solid var(--line)}
+  .card-hader .card-art,.card-bayan .card-art{display:flex}
+  .card-hader .card-visual,.card-bayan .card-visual{border-inline-end:0;border-bottom:1px solid var(--line)}
 }
 
 /* Navbar: highlight the section in view; compact, even buttons on phones */

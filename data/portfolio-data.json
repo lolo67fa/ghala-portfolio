@@ -133,6 +133,10 @@
     "cvMeta": {
       "en": "PDF",
       "ar": "PDF"
+    },
+    "engineeringDecision": {
+      "en": "Engineering decision",
+      "ar": "قرار هندسي"
     }
   },
   "hero": {
@@ -1044,6 +1048,112 @@
           {
             "en": "Read the match",
             "ar": "اقرأ النتيجة"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bayan",
+      "visual": "bunyan",
+      "name": {
+        "en": "Bayan",
+        "ar": "بيان"
+      },
+      "altName": {
+        "en": "بيان",
+        "ar": "Bayan"
+      },
+      "status": {
+        "en": "Individual project · Applied NLP with Transformers · SDAIA Academy",
+        "ar": "مشروع فردي · معالجة اللغة الطبيعية بالمحوّلات · أكاديمية سدايا"
+      },
+      "role": {
+        "en": "Individual project · data, models, evaluation and serving",
+        "ar": "مشروع فردي · البيانات والنماذج والتقييم والتقديم"
+      },
+      "problem": {
+        "en": "Service teams receive the same problems in Arabic and English, and similar past cases are hard to find across the two languages. I built Bayan, an Arabic–English NLP pipeline that masks contact details, predicts a request’s topic and retrieves the closest past case with multilingual semantic search, with every result tied to a measured evaluation.",
+        "ar": "تصل فرق الخدمة نفس المشاكل بالعربية والإنجليزية، ويصعب إيجاد الحالات السابقة المشابهة بين اللغتين. بنيت «بيان»، مسار معالجة لغة بالعربية والإنجليزية يخفي بيانات التواصل، ويتوقع موضوع الطلب، ويسترجع أقرب حالة سابقة بالبحث الدلالي متعدد اللغات، مع ربط كل نتيجة بتقييم مقاس."
+      },
+      "summary": {
+        "en": "The demo answers one question: how does Bayan understand a service request? Asked in Arabic where the neighbourhood bus stop is, it returns the matching English case first (similarity 0.807, above the 0.459 threshold tuned on validation queries). All data is synthetic course data.",
+        "ar": "يجيب العرض عن سؤال واحد: كيف يفهم بيان طلب الخدمة؟ عند سؤاله بالعربية عن موقع موقف الباص في الحي، يعيد الحالة الإنجليزية المطابقة أولًا (تشابه 0.807، أعلى من العتبة 0.459 المضبوطة على استعلامات التحقق). جميع البيانات تعليمية اصطناعية."
+      },
+      "contributionTitle": "whatIBuilt",
+      "contribution": [
+        {
+          "en": "Topic classification: compared a TF-IDF + LinearSVC baseline with fine-tuned multilingual DistilBERT, and kept the baseline as the reference when DistilBERT scored lower (validation macro-F1 0.55 vs 0.67, 8 rows).",
+          "ar": "تصنيف الموضوع: قارنت خط أساس TF-IDF + LinearSVC مع DistilBERT متعدد اللغات بعد ضبطه، وأبقيت خط الأساس مرجعًا لما سجّل DistilBERT نتيجة أقل (Macro-F1 على التحقق 0.55 مقابل 0.67، على 8 صفوف)."
+        },
+        {
+          "en": "Bilingual semantic search: multilingual MiniLM embeddings, a FAISS index and a no-answer threshold tuned on validation only (test Recall@3 1.0, MRR@3 0.67, 6 queries).",
+          "ar": "البحث الدلالي بين اللغتين: تمثيلات MiniLM متعددة اللغات، وفهرس FAISS، وعتبة «لا توجد إجابة» مضبوطة على بيانات التحقق فقط (على الاختبار Recall@3 ‏1.0 وMRR@3 ‏0.67، على 6 استعلامات)."
+        },
+        {
+          "en": "Serving: exported the classifier to ONNX behind a tested FastAPI contract, and built a CPU demo that reproduces the recorded results from a clean start.",
+          "ar": "التقديم: صدّرت المصنّف إلى ONNX خلف واجهة FastAPI مختبرة، وبنيت عرضًا يعمل على المعالج ويعيد إنتاج النتائج المسجلة من تشغيل نظيف."
+        },
+        {
+          "en": "Privacy: emails and Saudi mobile numbers are masked before any model sees the text.",
+          "ar": "الخصوصية: يُخفى البريد الإلكتروني وأرقام الجوال السعودية قبل أن يرى أي نموذج النص."
+        }
+      ],
+      "method": {
+        "en": "I kept ONNX FP32 and rejected INT8, even though INT8 was the fastest. On the project’s fine-tuned DistilBERT, measured on CPU over the same 8 validation rows, ONNX FP32 cut p95 latency from 1,107 ms to 137 ms (8.07×) with identical predictions. INT8 reached 85 ms but changed 3 of the 8 predictions and dropped macro-F1 from 0.55 to 0.325, 4.5 times the 0.05 quality budget I set before measuring. Speed that costs correctness is not an optimisation.",
+        "ar": "اعتمدت ONNX FP32 ورفضت INT8 مع إنه الأسرع. على نموذج DistilBERT الخاص بالمشروع، وبقياس على المعالج لنفس صفوف التحقق الثمانية، خفّض ONNX FP32 زمن p95 من 1107 ms إلى 137 ms (أسرع 8.07 مرة) بنفس التنبؤات تمامًا. أما INT8 فوصل إلى 85 ms، لكنه غيّر 3 من 8 تنبؤات وأنزل Macro-F1 من 0.55 إلى 0.325، أي 4.5 أضعاف ميزانية الجودة (0.05) اللي حددتها قبل القياس. السرعة اللي تكلّف الصحة مو تحسين."
+      },
+      "methodTitle": "engineeringDecision",
+      "toolsLabel": "tools",
+      "tools": [
+        "Python",
+        "Transformers",
+        "Sentence Transformers",
+        "FAISS",
+        "scikit-learn",
+        "ONNX Runtime",
+        "FastAPI"
+      ],
+      "github": "https://github.com/lolo67fa/bayan-nlp-ghalaalshreef-sdaia",
+      "visualText": {
+        "caption": {
+          "en": "From request to closest case",
+          "ar": "من الطلب إلى أقرب حالة"
+        },
+        "steps": [
+          {
+            "en": "Arabic or English request",
+            "ar": "طلب بالعربية أو الإنجليزية"
+          },
+          {
+            "en": "Mask contact details",
+            "ar": "إخفاء بيانات التواصل"
+          },
+          {
+            "en": "Predict topic",
+            "ar": "توقّع الموضوع"
+          },
+          {
+            "en": "Closest past case",
+            "ar": "أقرب حالة سابقة"
+          }
+        ]
+      },
+      "screenshots": {
+        "caption": {
+          "en": "Try Bayan · demo screenshot",
+          "ar": "جرّب بيان · لقطة من العرض"
+        },
+        "items": [
+          {
+            "src": "assets/bayan-demo.webp",
+            "label": {
+              "en": "Demo",
+              "ar": "العرض"
+            },
+            "alt": {
+              "en": "Try Bayan demo: the Arabic request “where is the bus stop in the neighbourhood?” is predicted as Transport by the TF-IDF + LinearSVC baseline, and the closest past case is an English case about an unclear bus-stop location, similarity 0.807 above the 0.459 threshold",
+              "ar": "عرض «جرّب بيان»: الطلب العربي «وين موقع موقف الباص في الحي؟» يصنّفه خط الأساس TF-IDF + LinearSVC تحت «النقل»، وأقرب حالة سابقة حالة إنجليزية عن موقع موقف حافلة غير واضح، بتشابه 0.807 أعلى من العتبة 0.459"
+            }
           }
         ]
       }

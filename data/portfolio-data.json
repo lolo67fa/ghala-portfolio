@@ -1197,7 +1197,7 @@
         "ByteTrack",
         "Computer vision"
       ],
-      "github": "",
+      "github": "https://github.com/lolo67fa/DroneCrowdMonitoringSystem",
       "visualText": {
         "caption": {
           "en": "Illustrative diagram · not real footage",
@@ -1222,19 +1222,19 @@
       },
       "screenshots": {
         "caption": {
-          "en": "Screenshot from the monitoring dashboard",
-          "ar": "لقطة من لوحة المراقبة"
+          "en": "Monitoring dashboard · demo mode",
+          "ar": "لوحة المراقبة · الوضع التجريبي"
         },
         "items": [
           {
-            "src": "assets/drone-dashboard.webp",
+            "src": "assets/drone-dashboard-live.webp",
             "label": {
-              "en": "Live feed",
-              "ar": "البث المباشر"
+              "en": "Dashboard",
+              "ar": "لوحة المراقبة"
             },
             "alt": {
-              "en": "Crowd monitoring dashboard: live drone feed with person bounding boxes and confidence scores, altitude, yaw and FPS readouts, and a count of 9 people detected",
-              "ar": "لوحة مراقبة الحشود: بث مباشر من الدرون مع مربعات حول الأشخاص ونسب الثقة، وقراءات الارتفاع والاتجاه وعدد الإطارات، وعدد 9 أشخاص مكتشفين"
+              "en": "AI Drone Crowd Monitor dashboard in demo mode: live feed with person boxes, “Room is crowded” at 100% of a 10-person limit, people now, peak, confidence and battery, mission information, event log and a crowd-density chart",
+              "ar": "لوحة مراقبة الحشود بالدرون في الوضع التجريبي: البث المباشر مع مربعات حول الأشخاص، وحالة «الغرفة مزدحمة» عند 100% من حد 10 أشخاص، وعدد الأشخاص الحالي والذروة ونسبة الثقة والبطارية، ومعلومات المهمة وسجل الأحداث ومخطط كثافة الحشد"
             }
           }
         ]

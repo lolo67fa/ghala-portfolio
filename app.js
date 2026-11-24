@@ -363,7 +363,7 @@
 
   function visualDrone(p) {
     return '<div class="card-visual v-drone"><span class="vis-caption">' + esc(p.shotCaption) + '</span>' +
-      (p.hasShots ? '<figure class="shot">' + shotImg(p, 1280, 895, 'aspect-ratio: 1280 / 895') + '</figure>' : '') +
+      (p.hasShots ? '<figure class="shot">' + shotImg(p, 800, 555, 'aspect-ratio: 800 / 555') + '</figure>' : '') +
       '<p class="flow-cap">' + esc(p.caption) + '</p><div class="drone-panels">' +
       '<figure class="drone-panel"><svg viewBox="0 0 240 150" role="img" aria-label="' + esc(p.detectTitle + ' — ' + p.detectText) + '">' + DRONE_DETECT_SVG_INNER + '</svg>' +
       '<figcaption><b>' + esc(p.detectTitle) + '</b>' + esc(p.detectText) + '</figcaption></figure>' +

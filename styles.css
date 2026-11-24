@@ -367,7 +367,7 @@ a{color:#C9BEF7}a:hover{color:#F4E4B8}
 .card-hader .card-art,.card-bayan .card-art{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
 .card-hader .card-visual,.card-bayan .card-visual{border-bottom:0;border-inline-end:1px solid var(--line)}
 .card-hader .shot img{aspect-ratio:1600 / 1160;object-fit:contain}
-.card-bayan .shot img{aspect-ratio:1600 / 1258;object-fit:contain}
+.card-bayan .shot img{aspect-ratio:1600 / 1025;object-fit:contain}
 @media (max-width: 960px){
   .card-hader .card-art,.card-bayan .card-art{display:flex}
   .card-hader .card-visual,.card-bayan .card-visual{border-inline-end:0;border-bottom:1px solid var(--line)}
